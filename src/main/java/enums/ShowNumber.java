@@ -1,14 +1,14 @@
 package enums;
 
-public enum ShowNo {
+public enum ShowNumber {
     AUDI1("1"), AUDI2("2"), AUDI3("3");
-    private String audiNo;
+    private String audiNumber;
 
     public String getAudiNo() {
-        return audiNo;
+        return audiNumber;
     }
 
-    ShowNo(String audiNo) {
-        this.audiNo = audiNo;
+    ShowNumber(String audiNo) {
+        this.audiNumber = audiNo;
     }
 }

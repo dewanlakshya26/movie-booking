@@ -1,4 +1,4 @@
-import enums.ShowNo;
+import enums.ShowNumber;
 import enums.TicketType;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
@@ -33,15 +33,15 @@ class MovieLoader {
     }
 
     private void loadSeatsPerAudi(JSONObject showList) {
-        ShowNo[] showNo = ShowNo.values();
-        for (ShowNo show : showNo) {
+        ShowNumber[] showNo = ShowNumber.values();
+        for (ShowNumber show : showNo) {
             String audiNumber = show.getAudiNo();
             JSONObject showseats = (JSONObject) showList.get(audiNumber);
             loadSeat(showseats, show);
         }
     }
 
-    private void loadSeat(JSONObject movieObject, ShowNo show) {
+    private void loadSeat(JSONObject movieObject, ShowNumber show) {
         switch (show) {
             case AUDI1:
                 audi1.putAll(loadSeatsInAudi(movieObject, audi1));
