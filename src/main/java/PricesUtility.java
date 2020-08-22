@@ -1,4 +1,4 @@
-import enums.TicketType;
+import static enums.Enums.*;
 
 import java.util.Map;
 import java.util.Set;

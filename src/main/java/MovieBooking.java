@@ -1,11 +1,11 @@
 
-import enums.ShowNumber;
-import enums.TicketType;
+import static enums.Enums.*;
 
 import java.util.*;
 
 public class MovieBooking {
     private static boolean seatAvailiable = false;
+    private Scanner scanner = new Scanner(System.in);
 
     public static void main(String... args) {
         new MovieLoader();
@@ -14,31 +14,30 @@ public class MovieBooking {
 
     private void play() {
         System.out.println("Enter Show no");
-        Scanner scanner = new Scanner(System.in);
         final String showNo = scanner.next();
         if (showNo.equals("0")) {
             shutDown();
         }
-        driveCustomer(scanner, showNo);
+        driveCustomer(showNo);
 
     }
 
-    private void driveCustomer(Scanner scanner, String showNo) {
+    private void driveCustomer(String showNumber) {
 
         while (true)
-            if (showNo.equals(ShowNumber.AUDI1.getAudiNo())) {
-                continueMovieBooking(MovieLoader.audi1, scanner, showNo);
-            } else if (showNo.equals(ShowNumber.AUDI2.getAudiNo())) {
-                continueMovieBooking(MovieLoader.audi2, scanner, showNo);
-            } else if (showNo.equals(ShowNumber.AUDI3.getAudiNo())) {
-                continueMovieBooking(MovieLoader.audi3, scanner, showNo);
+            if (showNumber.equals(ShowNumber.AUDI1.getAudiNo())) {
+                continueMovieBooking(MovieLoader.audi1, showNumber);
+            } else if (showNumber.equals(ShowNumber.AUDI2.getAudiNo())) {
+                continueMovieBooking(MovieLoader.audi2, showNumber);
+            } else if (showNumber.equals(ShowNumber.AUDI3.getAudiNo())) {
+                continueMovieBooking(MovieLoader.audi3, showNumber);
             } else {
                 System.out.println("Please select shows between 1,2 and 3");
                 shutDown();
             }
     }
 
-    private void continueMovieBooking(Map<String, TicketType> audi, Scanner scanner, String showNo) {
+    private void continueMovieBooking(Map<String, TicketType> audi, String showNo) {
         System.out.println("Please select movies from below list");
         System.out.println(Arrays.toString(audi.keySet().toArray()));
         System.out.print("Enter Seats");
@@ -60,7 +59,7 @@ public class MovieBooking {
                     System.out.println(seatNo + " Not available, Please select different seats");
                 }
             }
-            driveCustomer(new Scanner(System.in), showNo);
+            driveCustomer(showNo);
         }
         System.out.println("Press 0 to exit");
         play();

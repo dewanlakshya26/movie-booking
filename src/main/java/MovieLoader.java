@@ -1,10 +1,10 @@
-import enums.ShowNumber;
-import enums.TicketType;
+
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
-
+import static enums.Enums.*;
 import java.io.*;
+import java.util.EnumSet;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -21,6 +21,7 @@ class MovieLoader {
     void loadMovieFromSeed() {
         JSONParser jsonParser = new JSONParser();
 
+        String showListPath = new File("").getAbsolutePath()+"/src/main/resources/movie-list.json";
         try (FileReader reader = new FileReader(showListPath)) {
             Object obj = jsonParser.parse(reader);
             JSONObject showList = (JSONObject) obj;
@@ -55,30 +56,21 @@ class MovieLoader {
     }
 
     private Map<String, TicketType> loadSeatsInAudi(JSONObject movieObject, Map<String, TicketType> audi) {
-        String platinumMovie = (String) movieObject.get("PLATINUM");
+        EnumSet.allOf(TicketType.class).forEach((category) ->
+            loadSeatWithCategory(audi, (String) movieObject.get(category.name()),category));
+        return audi;
+    }
+
+    private Map<String, TicketType> loadSeatWithCategory(Map<String, TicketType> audi, String platinumMovie, TicketType ticketType) {
         String[] platinumMovieList = platinumMovie.split(",");
         for (String platinumSeat : platinumMovieList
         ) {
-            audi.put(platinumSeat, TicketType.PLATINUM);
-        }
-        String goldMovie = (String) movieObject.get("GOLD");
-        String[] goldMovieList = goldMovie.split(",");
-        for (String goldSeat : goldMovieList
-        ) {
-            audi.put(goldSeat, TicketType.GOLD);
-        }
-
-        String silverMovie = (String) movieObject.get("SILVER");
-        String[] silverMovieList = silverMovie.split(",");
-        for (String silverSeat : silverMovieList
-        ) {
-            audi.put(silverSeat, TicketType.SILVER);
+            audi.put(platinumSeat, ticketType);
         }
         return audi;
     }
 
 
-    String showListPath = "/home/user/Downloads/movie-booking/src/main/resources/movie-list.json";
 }
 
 
