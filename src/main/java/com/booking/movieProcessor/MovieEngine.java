@@ -6,26 +6,30 @@ import com.booking.printExecutor.PrintUtility;
 
 import java.util.*;
 
-public class DriveCustomer {
+public class MovieEngine {
     private Scanner scanner = new Scanner(System.in);
     private boolean seatAvailiable = false;
     private PrintUtility printHandler = new PrintUtility();
 
 
-    void play() {
+    void bookingEngine() {
         System.out.println("Enter Show no");
         final String showNo = scanner.next();
-        bookingEngine(showNo);
+        bookTickets(showNo);
     }
 
-    void bookingEngine(String showNumber) {
+    void bookTickets(String showNumber) {
         MovieLoader movieLoader = MovieLoader.getMovieLoaderSingletonInstance();
 
         while (true) {
-
+            try {
             if (Integer.parseInt(showNumber) != 0 && Integer.parseInt(showNumber) <= ShowNumber.values().length) {
                 continueMovieBooking(movieLoader.getAuditoriumWiseSeatList(Integer.parseInt(showNumber)), showNumber);
             } else {
+                System.out.println("Please select shows between 1,2 and 3");
+                shutDown();
+            }}
+            catch (Exception e){
                 System.out.println("Please select shows between 1,2 and 3");
                 shutDown();
             }
@@ -54,11 +58,11 @@ public class DriveCustomer {
                     System.out.println(seatNo + " Not available, Please select different seats");
                 }
             }
-            bookingEngine(showNo);
+            bookTickets(showNo);
         }
         System.out.println();
         System.out.println("Press 0 to exit");
-        play();
+        bookingEngine();
 
     }
 

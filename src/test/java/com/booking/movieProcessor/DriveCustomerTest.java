@@ -17,7 +17,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class DriveCustomerTest {
 
 
-    DriveCustomer driveCustomerInstance;
+    MovieEngine driveCustomerInstance;
     Map<String, TicketType> audi;
     private final ByteArrayOutputStream outputConsoleData = new ByteArrayOutputStream();
     private final PrintStream originalOut = System.out;
@@ -26,7 +26,7 @@ class DriveCustomerTest {
     @BeforeAll
     void init() {
         System.setOut(new PrintStream(outputConsoleData));
-        driveCustomerInstance = new DriveCustomer();
+        driveCustomerInstance = new MovieEngine();
         audi = new HashMap<>();
     }
 

@@ -53,17 +53,14 @@ class MovieLoader {
     void loadSeatsPerAuditorium(JSONObject showList) {
         System.out.println(auditoriumLoaderList.size());
         EnumSet.allOf(ShowNumber.class)
-                .forEach(showNumber ->
-                        auditoriumLoaderList.add((loadSeatsInSpecificAuditorium((JSONObject) showList.get(showNumber.getAudiNo())))));
+                .forEach(showNumber -> {
+                    HashMap<String, TicketType> movieListPerAuditorium = new HashMap<>();
+                    EnumSet.allOf(TicketType.class).forEach(category ->
+                        movieListPerAuditorium.putAll(loadSeatWithCategory((String) ((JSONObject) showList.get(showNumber.getAudiNo())).get(category.name()), category)));
+                    auditoriumLoaderList.add(movieListPerAuditorium);
+                });
     }
 
-
-    private HashMap<String, TicketType> loadSeatsInSpecificAuditorium(JSONObject movieObject) {
-        HashMap<String, TicketType> movieListPerAuditorium = new HashMap<>();
-        EnumSet.allOf(TicketType.class).forEach(category ->
-                movieListPerAuditorium.putAll(loadSeatWithCategory((String) movieObject.get(category.name()), category)));
-        return movieListPerAuditorium;
-    }
 
     private HashMap<String, TicketType> loadSeatWithCategory(String seatList, TicketType category) {
         HashMap<String, TicketType> movieListPerCategory = new HashMap<>();

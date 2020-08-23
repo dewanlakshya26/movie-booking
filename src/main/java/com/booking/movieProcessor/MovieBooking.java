@@ -4,6 +4,6 @@ public class MovieBooking {
 
     public static void main(String... args) {
         MovieLoader.getMovieLoaderSingletonInstance();
-        new DriveCustomer().play();
+        new MovieEngine().bookingEngine();
     }
 }
