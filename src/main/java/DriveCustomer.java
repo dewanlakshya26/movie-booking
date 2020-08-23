@@ -32,7 +32,7 @@ public class DriveCustomer {
     private void continueMovieBooking(Map<String, Enums.TicketType> audi, String showNo) {
         System.out.println("Please select movies from below list");
         System.out.println(Arrays.toString(audi.keySet().toArray()));
-        System.out.print("Enter Seats");
+        System.out.println("Enter Seats");
         String[] seatNumbers = scanner.next().split(",");
         Set seatNumbersSet = new HashSet<>(Arrays.asList(seatNumbers));
 

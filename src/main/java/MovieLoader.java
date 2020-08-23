@@ -13,7 +13,7 @@ class MovieLoader {
     static Map<String, Enums.TicketType> audi2 = new HashMap<>();
     static Map<String, Enums.TicketType> audi3 = new HashMap<>();
 
-    public MovieLoader() {
+    MovieLoader() {
         loadMovieFromSeed();
     }
 
@@ -33,22 +33,28 @@ class MovieLoader {
     }
 
     private void loadSeatsPerAudi(JSONObject showList) {
-        Enums.ShowNumber[] showNo = Enums.ShowNumber.values();
-        for (Enums.ShowNumber show : showNo) {
-            String audiNumber = show.getAudiNo();
-            JSONObject showseats = (JSONObject) showList.get(audiNumber);
-            loadSeat(showseats, show);
+//        Enums.ShowNumber[] showNo = Enums.ShowNumber.values();
+//        for (Enums.ShowNumber show : showNo) {
+//            String audiNumber = show.getAudiNo();
+//            JSONObject showseats = (JSONObject) showList.get(audiNumber);
+//            loadSeat(showseats, show);
+
+        EnumSet.allOf(Enums.ShowNumber.class)
+                .forEach(showNumber -> loadSeat((JSONObject) showList.get(showNumber.getAudiNo()),showNumber));
         }
-    }
+
 
     private void loadSeat(JSONObject movieObject, Enums.ShowNumber show) {
         switch (show) {
             case AUDI1:
                 audi1.putAll(loadSeatsInAudi(movieObject, audi1));
+                break;
             case AUDI2:
                 audi2.putAll(loadSeatsInAudi(movieObject, audi2));
+                break;
             case AUDI3:
                 audi3.putAll(loadSeatsInAudi(movieObject, audi3));
+                break;
         }
 
 
