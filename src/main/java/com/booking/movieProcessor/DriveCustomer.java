@@ -15,25 +15,21 @@ public class DriveCustomer {
     void play() {
         System.out.println("Enter Show no");
         final String showNo = scanner.next();
-        if (showNo.equals("0")) {
-            shutDown();
-        }
-        driveCustomer(showNo);
+        bookingEngine(showNo);
     }
 
-    void driveCustomer(String showNumber) {
+    void bookingEngine(String showNumber) {
+        MovieLoader movieLoader = MovieLoader.getMovieLoaderSingletonInstance();
 
-        while (true)
-            if (showNumber.equals(ShowNumber.AUDI1.getAudiNo())) {
-                continueMovieBooking(MovieLoader.audi1, showNumber);
-            } else if (showNumber.equals(ShowNumber.AUDI2.getAudiNo())) {
-                continueMovieBooking(MovieLoader.audi2, showNumber);
-            } else if (showNumber.equals(ShowNumber.AUDI3.getAudiNo())) {
-                continueMovieBooking(MovieLoader.audi3, showNumber);
+        while (true) {
+
+            if (Integer.parseInt(showNumber) != 0 && Integer.parseInt(showNumber) <= ShowNumber.values().length) {
+                continueMovieBooking(movieLoader.getAuditoriumWiseSeatList(Integer.parseInt(showNumber)), showNumber);
             } else {
                 System.out.println("Please select shows between 1,2 and 3");
                 shutDown();
             }
+        }
     }
 
     private void continueMovieBooking(Map<String, TicketType> audi, String showNo) {
@@ -58,7 +54,7 @@ public class DriveCustomer {
                     System.out.println(seatNo + " Not available, Please select different seats");
                 }
             }
-            driveCustomer(showNo);
+            bookingEngine(showNo);
         }
         System.out.println();
         System.out.println("Press 0 to exit");

@@ -9,18 +9,30 @@ import org.json.simple.parser.ParseException;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.EnumSet;
 import java.util.HashMap;
 import java.util.Map;
 
 
 class MovieLoader {
-    static Map<String, TicketType> audi1 = new HashMap<>();
-    static Map<String, TicketType> audi2 = new HashMap<>();
-    static Map<String, TicketType> audi3 = new HashMap<>();
+    private ArrayList<HashMap<String, TicketType>> auditoriumLoaderList = new ArrayList<>();
+    private static MovieLoader movieLoaderSingletonInstance = null;
 
-    MovieLoader() {
+    private MovieLoader() {
         loadMovieFromSeed();
+    }
+
+
+    public static MovieLoader getMovieLoaderSingletonInstance() {
+        if (movieLoaderSingletonInstance == null) {
+            movieLoaderSingletonInstance = new MovieLoader();
+        }
+        return movieLoaderSingletonInstance;
+    }
+
+    public Map<String, TicketType> getAuditoriumWiseSeatList(int auditoriumNo) {
+        return auditoriumLoaderList.get(auditoriumNo - 1);
     }
 
     void loadMovieFromSeed() {
@@ -31,45 +43,35 @@ class MovieLoader {
             Object obj = jsonParser.parse(reader);
             JSONObject showList = (JSONObject) obj;
 
-            loadSeatsPerAudi(showList);
+            loadSeatsPerAuditorium(showList);
         } catch (IOException | ParseException e) {
             e.printStackTrace();
         }
 
     }
 
-    void loadSeatsPerAudi(JSONObject showList) {
+    void loadSeatsPerAuditorium(JSONObject showList) {
+        System.out.println(auditoriumLoaderList.size());
         EnumSet.allOf(ShowNumber.class)
-                .forEach(showNumber -> loadSeat((JSONObject) showList.get(showNumber.getAudiNo()), showNumber));
+                .forEach(showNumber ->
+                        auditoriumLoaderList.add((loadSeatsInSpecificAuditorium((JSONObject) showList.get(showNumber.getAudiNo())))));
     }
 
 
-    private void loadSeat(JSONObject movieObject, ShowNumber show) {
-        switch (show) {
-            case AUDI1:
-                loadSeatsInAudi(movieObject, audi1);
-                break;
-            case AUDI2:
-                loadSeatsInAudi(movieObject, audi2);
-                break;
-            case AUDI3:
-                loadSeatsInAudi(movieObject, audi3);
-                break;
-        }
-
-
-    }
-
-    private void loadSeatsInAudi(JSONObject movieObject, Map<String, TicketType> audi) {
+    private HashMap<String, TicketType> loadSeatsInSpecificAuditorium(JSONObject movieObject) {
+        HashMap<String, TicketType> movieListPerAuditorium = new HashMap<>();
         EnumSet.allOf(TicketType.class).forEach(category ->
-                loadSeatWithCategory(audi, (String) movieObject.get(category.name()), category));
+                movieListPerAuditorium.putAll(loadSeatWithCategory((String) movieObject.get(category.name()), category)));
+        return movieListPerAuditorium;
     }
 
-    private void loadSeatWithCategory(Map<String, TicketType> audi, String seatList, TicketType ticketType) {
+    private HashMap<String, TicketType> loadSeatWithCategory(String seatList, TicketType category) {
+        HashMap<String, TicketType> movieListPerCategory = new HashMap<>();
         String[] segregatedSeats = seatList.split(",");
         for (String seat : segregatedSeats) {
-            audi.put(seat, ticketType);
+            movieListPerCategory.put(seat, category);
         }
+        return movieListPerCategory;
     }
 
 
