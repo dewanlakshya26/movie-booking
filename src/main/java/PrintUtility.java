@@ -1,5 +1,3 @@
-import static enums.Enums.*;
-
 import java.util.Map;
 import java.util.Set;
 
@@ -14,7 +12,7 @@ public class PrintUtility {
 
     }
 
-    static void continueWithPriceDescription(Map<String, TicketType> audi, Set seatNumbers, String showNo) {
+    static void continueWithPriceDescription(Map<String, Enums.TicketType> audi, Set seatNumbers, String showNo) {
         System.out.println("Print: Successfully Booked - Show" + showNo);
         double price = PricesUtility.getPrice(audi, seatNumbers);
         double serviceTax = PricesUtility.getServiceTax(price);

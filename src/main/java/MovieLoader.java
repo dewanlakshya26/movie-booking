@@ -2,7 +2,6 @@
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
-import static enums.Enums.*;
 import java.io.*;
 import java.util.EnumSet;
 import java.util.HashMap;
@@ -10,9 +9,9 @@ import java.util.Map;
 
 
 class MovieLoader {
-    static Map<String, TicketType> audi1 = new HashMap<>();
-    static Map<String, TicketType> audi2 = new HashMap<>();
-    static Map<String, TicketType> audi3 = new HashMap<>();
+    static Map<String, Enums.TicketType> audi1 = new HashMap<>();
+    static Map<String, Enums.TicketType> audi2 = new HashMap<>();
+    static Map<String, Enums.TicketType> audi3 = new HashMap<>();
 
     public MovieLoader() {
         loadMovieFromSeed();
@@ -34,15 +33,15 @@ class MovieLoader {
     }
 
     private void loadSeatsPerAudi(JSONObject showList) {
-        ShowNumber[] showNo = ShowNumber.values();
-        for (ShowNumber show : showNo) {
+        Enums.ShowNumber[] showNo = Enums.ShowNumber.values();
+        for (Enums.ShowNumber show : showNo) {
             String audiNumber = show.getAudiNo();
             JSONObject showseats = (JSONObject) showList.get(audiNumber);
             loadSeat(showseats, show);
         }
     }
 
-    private void loadSeat(JSONObject movieObject, ShowNumber show) {
+    private void loadSeat(JSONObject movieObject, Enums.ShowNumber show) {
         switch (show) {
             case AUDI1:
                 audi1.putAll(loadSeatsInAudi(movieObject, audi1));
@@ -55,13 +54,13 @@ class MovieLoader {
 
     }
 
-    private Map<String, TicketType> loadSeatsInAudi(JSONObject movieObject, Map<String, TicketType> audi) {
-        EnumSet.allOf(TicketType.class).forEach((category) ->
+    private Map<String, Enums.TicketType> loadSeatsInAudi(JSONObject movieObject, Map<String, Enums.TicketType> audi) {
+        EnumSet.allOf(Enums.TicketType.class).forEach((category) ->
             loadSeatWithCategory(audi, (String) movieObject.get(category.name()),category));
         return audi;
     }
 
-    private Map<String, TicketType> loadSeatWithCategory(Map<String, TicketType> audi, String platinumMovie, TicketType ticketType) {
+    private Map<String, Enums.TicketType> loadSeatWithCategory(Map<String, Enums.TicketType> audi, String platinumMovie, Enums.TicketType ticketType) {
         String[] platinumMovieList = platinumMovie.split(",");
         for (String platinumSeat : platinumMovieList
         ) {

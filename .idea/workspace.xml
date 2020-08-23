@@ -2,28 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="645209d5-6ef9-400d-9bd6-e19966214b6b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/enums/EnumsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DriveCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MovieLoaderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/MovieBooking.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/MovieBooking.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/MovieLoader$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/MovieLoader$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/MovieLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/MovieLoader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/PricesUtility.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/PricesUtility.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/PrintUtility.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/PrintUtility.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/enums/ShowNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/enums/TicketType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Tax.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/enums/Enums$ShowNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/enums/Enums$TicketType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/enums/Enums.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/enums/EnumsTest$ShowNumberTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/enums/EnumsTest$TicketTypeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/enums/EnumsTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MovieBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MovieBooking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MovieLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MovieLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PricesUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PricesUtility.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PrintUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PrintUtility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/enums/ShowNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enums/Enums.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/enums/TicketType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TotalRevenue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TotalRevenue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/enums/Enums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enums.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/enums/EnumsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EnumsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -97,8 +97,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MovieBooking.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-133">
-              <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+            <state relative-caret-position="44">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TotalRevenue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -106,32 +115,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
+            <state relative-caret-position="550">
               <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/enums/Enums.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-              <folding>
-                <element signature="e#150#151#0" expanded="true" />
-                <element signature="e#183#184#0" expanded="true" />
-                <element signature="e#216#217#0" expanded="true" />
-                <element signature="e#256#257#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/enums/EnumsTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/EnumsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1099">
-              <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+            <state relative-caret-position="-45">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -142,17 +135,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.3.1/b03f607c0822a283c972e37eaeacb00dc3a3c2e7/junit-jupiter-api-5.3.1-sources.jar!/org/junit/jupiter/api/DisplayName.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
+            <state relative-caret-position="484">
               <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -160,8 +144,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/PrintUtility.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="352">
+              <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -169,33 +156,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/PricesUtility.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+            <state relative-caret-position="374">
+              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#77#78#0" expanded="true" />
-                <element signature="e#140#141#0" expanded="true" />
-                <element signature="e#195#196#0" expanded="true" />
-                <element signature="e#263#264#0" expanded="true" />
-                <element signature="e#318#319#0" expanded="true" />
-                <element signature="e#386#387#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TotalRevenue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-              <folding>
-                <element signature="e#191#192#0" expanded="true" />
-                <element signature="e#219#220#0" expanded="true" />
-                <element signature="e#417#418#0" expanded="true" />
-                <element signature="e#447#448#0" expanded="true" />
-                <element signature="e#477#478#0" expanded="true" />
-                <element signature="e#503#504#0" expanded="true" />
+                <element signature="e#151#152#0" expanded="true" />
+                <element signature="e#220#221#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -204,12 +170,36 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MovieLoader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-634">
-              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            <state relative-caret-position="-596">
+              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#483#484#0" expanded="true" />
-                <element signature="e#531#532#0" expanded="true" />
+                <element signature="e#480#481#0" expanded="true" />
+                <element signature="e#515#516#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DriveCustomer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="472">
+              <caret line="46" column="51" selection-start-line="46" selection-start-column="51" selection-end-line="46" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Enums.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+              <folding>
+                <element signature="e#682#683#0" expanded="true" />
+                <element signature="e#712#713#0" expanded="true" />
+                <element signature="e#742#743#0" expanded="true" />
+                <element signature="e#768#769#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -220,8 +210,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
+        <option value="Arquillian JUnit Test Class" />
       </list>
     </option>
   </component>
@@ -232,11 +223,13 @@
       <find>Silver</find>
       <find>counter</find>
       <find>syst</find>
+      <find>TicketType</find>
     </findStrings>
     <replaceStrings>
       <replace>GOLD</replace>
       <replace>AUDI</replace>
       <replace>SILVER</replace>
+      <replace>Enums.TicketType</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -249,18 +242,23 @@
         <option value="$PROJECT_DIR$/src/main/resources/movie-list.json" />
         <option value="$PROJECT_DIR$/src/main/java/enums/ShowNo/TicketType.java" />
         <option value="$PROJECT_DIR$/src/main/java/enums/ShowNo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TotalRevenue.java" />
         <option value="$PROJECT_DIR$/src/main/java/CaclulatePrice.java" />
         <option value="$PROJECT_DIR$/src/main/java/enums/ShowNumber.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MovieLoader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PricesUtility.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PrintUtility.java" />
         <option value="$PROJECT_DIR$/src/main/java/enums/TicketType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/enums/Enums.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MovieBooking.java" />
         <option value="$PROJECT_DIR$/src/test/java/enums/ShowNumberTest.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/MovieBooking.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MovieLoaderTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/movie_booking/enums/Enums.java" />
+        <option value="$PROJECT_DIR$/src/main/java/enums/Enums.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MovieLoader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DriveCustomer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PrintUtility.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TotalRevenue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Enums.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PricesUtility.java" />
         <option value="$PROJECT_DIR$/src/test/java/enums/EnumsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/EnumsTest.java" />
       </list>
     </option>
   </component>
@@ -317,14 +315,6 @@
               <item name="movie-booking" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="enums" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="movie-booking" type="b2602c69:ProjectViewProjectNode" />
-              <item name="movie-booking" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -339,14 +329,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="movie-booking" type="b2602c69:ProjectViewProjectNode" />
-              <item name="movie-booking" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="enums" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="movie-booking" type="b2602c69:ProjectViewProjectNode" />
@@ -425,8 +407,9 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598115265237" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598151498646" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
@@ -438,11 +421,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
       <recent name="enums" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
       <recent name="java" />
+      <recent name="com.movie_booking" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -476,43 +461,32 @@
       <module name="movie-booking.movie-booking.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="enums.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="enums" />
-      <option name="MAIN_CLASS_NAME" value="enums.EnumsTest$ShowNumberTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EnumsTest$ShowNumberTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnumsTest$TicketTypeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EnumsTest$TaxTypeTest.checkServiceTaxPercentage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="movie-booking.movie-booking.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="enums.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="enums" />
-      <option name="MAIN_CLASS_NAME" value="enums.EnumsTest$TicketTypeTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EnumsTest$TaxTypeTest" />
+      <option name="METHOD_NAME" value="checkServiceTaxPercentage" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnumsTest$TicketTypeTest.checkPricePlatinum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EnumsTest$TaxTypeTest.checkSwatchBharatTaxPercentage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="movie-booking.movie-booking.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="enums.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="enums" />
-      <option name="MAIN_CLASS_NAME" value="enums.EnumsTest$TicketTypeTest" />
-      <option name="METHOD_NAME" value="checkPricePlatinum" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EnumsTest$TaxTypeTest" />
+      <option name="METHOD_NAME" value="checkSwatchBharatTaxPercentage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -522,12 +496,12 @@
       <module name="movie-booking.movie-booking.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="enums.*" />
+          <option name="PATTERN" value="com.movie_booking.enums.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="enums" />
-      <option name="MAIN_CLASS_NAME" value="enums.EnumsTest" />
+      <option name="MAIN_CLASS_NAME" value="com.movie_booking.enums.EnumsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -536,9 +510,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.MovieBooking" />
-        <item itemvalue="JUnit.EnumsTest$TicketTypeTest" />
+        <item itemvalue="JUnit.EnumsTest$TaxTypeTest.checkSwatchBharatTaxPercentage" />
+        <item itemvalue="JUnit.EnumsTest$TaxTypeTest.checkServiceTaxPercentage" />
         <item itemvalue="JUnit.EnumsTest$ShowNumberTest" />
-        <item itemvalue="JUnit.EnumsTest$TicketTypeTest.checkPricePlatinum" />
         <item itemvalue="JUnit.EnumsTest" />
       </list>
     </recent_temporary>
@@ -554,26 +528,11 @@
       <option name="presentableId" value="Default" />
       <updated>1598065423052</updated>
       <workItem from="1598065426707" duration="27085000" />
-      <workItem from="1598098869705" duration="10421000" />
+      <workItem from="1598098869705" duration="11440000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EnumsTest - 2020.08.22 at 22h 08m 04s.xml">
-      <configuration name="EnumsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EnumsTest$ShowNumberTest_shouldHaveTotalThreeNoOfAuditoriums - 2020.08.22 at 22h 08m 13s.xml">
-      <configuration name="EnumsTest$ShowNumberTest.shouldHaveTotalThreeNoOfAuditoriums" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EnumsTest$ShowNumberTest - 2020.08.22 at 22h 09m 23s.xml">
-      <configuration name="EnumsTest$ShowNumberTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EnumsTest$ShowNumberTest - 2020.08.22 at 22h 10m 28s.xml">
-      <configuration name="EnumsTest$ShowNumberTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EnumsTest$TicketTypeTest_shouldHaveTotalThreeNoOfCategory - 2020.08.22 at 22h 16m 11s.xml">
-      <configuration name="EnumsTest$TicketTypeTest.shouldHaveTotalThreeNoOfCategory" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EnumsTest$TicketTypeTest_checkPricePlatinum - 2020.08.22 at 22h 18m 09s.xml">
       <configuration name="EnumsTest$TicketTypeTest.checkPricePlatinum" configurationId="JUnit" />
     </history-entry>
@@ -589,15 +548,39 @@
     <history-entry file="EnumsTest$ShowNumberTest - 2020.08.22 at 22h 19m 36s.xml">
       <configuration name="EnumsTest$ShowNumberTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="EnumsTest - 2020.08.22 at 22h 21m 12s.xml">
+      <configuration name="EnumsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EnumsTest$TicketTypeTest - 2020.08.22 at 22h 21m 38s.xml">
+      <configuration name="EnumsTest$TicketTypeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EnumsTest$TicketTypeTest_checkPricePlatinum - 2020.08.22 at 22h 22m 55s.xml">
+      <configuration name="EnumsTest$TicketTypeTest.checkPricePlatinum" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EnumsTest$ShowNumberTest - 2020.08.22 at 22h 23m 31s.xml">
+      <configuration name="EnumsTest$ShowNumberTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EnumsTest$TicketTypeTest - 2020.08.22 at 22h 23m 38s.xml">
+      <configuration name="EnumsTest$TicketTypeTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37506000" />
+    <option name="totallyTimeSpent" value="39816000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24958494" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24958494" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -606,20 +589,19 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29805616" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35313174" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32937366" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.33045357" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.28293738" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32937366" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info active="true" anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.32982844" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -630,7 +612,43 @@
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32982844" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24958494" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35313174" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32937366" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.28293738" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32937366" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.32982844" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32982844" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -679,21 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TotalRevenue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -701,86 +704,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PricesUtility.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/enums/TicketType.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/MovieLoaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        <state relative-caret-position="66">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MovieLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-596">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#77#78#0" expanded="true" />
-            <element signature="e#140#141#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PrintUtility.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/enums/TicketType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MovieLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-634">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        <state relative-caret-position="352">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MovieBooking.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-133">
-          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.3.1/b03f607c0822a283c972e37eaeacb00dc3a3c2e7/junit-jupiter-api-5.3.1-sources.jar!/org/junit/jupiter/api/DisplayName.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
+        <state relative-caret-position="484">
           <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/enums/Enums.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        <state relative-caret-position="550">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MovieBooking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TotalRevenue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PricesUtility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
           <folding>
-            <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#183#184#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/enums/EnumsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Enums.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1099">
-          <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+        <state relative-caret-position="22">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+          <folding>
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DriveCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="46" column="51" selection-start-line="46" selection-start-column="51" selection-end-line="46" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/EnumsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

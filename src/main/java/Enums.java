@@ -1,4 +1,3 @@
-package enums;
 
 public class Enums {
     public enum ShowNumber {
@@ -9,7 +8,7 @@ public class Enums {
             return showNumber;
         }
 
-         ShowNumber(String audiNo) {
+        ShowNumber(String audiNo) {
             this.showNumber = audiNo;
         }
     }
@@ -24,6 +23,19 @@ public class Enums {
 
         TicketType(int price) {
             this.price = price;
+        }
+    }
+
+   public enum Tax {
+        SERVICE_TAX(14.0), SWACHHBHARAT_TAX(0.5), KRISHIKALYAN_TAX(0.5);
+        private Double tax;
+
+        Tax(Double tax) {
+            this.tax = tax;
+        }
+
+        public Double getTax() {
+            return tax;
         }
     }
 }
