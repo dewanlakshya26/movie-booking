@@ -2,11 +2,13 @@ package com.booking.printExecutor;
 
 import com.booking.enums.TicketType;
 import com.booking.revenueGenerator.TotalRevenue;
+import org.junit.Before;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
+import org.mockito.Mockito;
 import org.powermock.modules.junit4.PowerMockRunner;
 
 import java.io.ByteArrayOutputStream;
@@ -17,9 +19,16 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @RunWith(PowerMockRunner.class)
 @TestInstance(TestInstance.Lifecycle.PER_METHOD)
 class PrintUtilityTest {
+    TotalRevenue revenueHandler;
     private final ByteArrayOutputStream outputConsoleData = new ByteArrayOutputStream();
     private final PrintStream originalOut = System.out;
     private PrintUtility printHandler = new PrintUtility();
+
+    @Before
+    void init() {
+        revenueHandler = Mockito.mock(TotalRevenue.class);
+
+    }
 
 
 
@@ -29,6 +38,7 @@ class PrintUtilityTest {
 
             System.setOut(new PrintStream(outputConsoleData));
             printHandler.printTotalRevenue();
+            Mockito.when(revenueHandler.getRevenue()).thenReturn(0.0);
             assertEquals("Total Sales:\n" +
                     "Revenue: Rs.0.0\n" +
                     "Service Tax: Rs. 0.0\n" +

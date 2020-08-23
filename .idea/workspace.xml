@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="645209d5-6ef9-400d-9bd6-e19966214b6b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/booking/movieProcessor/DriveCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/booking/movieProcessor/DriveCustomer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/booking/priceCalculator/PricesUtility.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/booking/printExecutor/PrintUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/booking/printExecutor/PrintUtility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/booking/revenueGenerator/TotalRevenue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/booking/revenueGenerator/TotalRevenue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/booking/printExecutor/PriceUtilityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/booking/printExecutor/PriceUtilityTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/booking/printExecutor/PrintUtilityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/booking/printExecutor/PrintUtilityTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/booking/revenueGenerator/TotalRevenueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/booking/revenueGenerator/TotalRevenueTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -148,11 +142,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/booking/printExecutor/PrintUtilityTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="902">
-              <caret line="41" column="78" selection-start-line="41" selection-start-column="78" selection-end-line="41" selection-end-column="78" />
+            <state relative-caret-position="374">
+              <caret line="17" column="48" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -160,15 +154,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/booking/revenueGenerator/TotalRevenueTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+            <state relative-caret-position="241">
+              <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#324#325#0" expanded="true" />
-                <element signature="e#373#374#0" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
+                <element signature="e#398#399#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -285,9 +279,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/booking/priceCalculator/PricesUtility.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/booking/printExecutor/PrintUtility.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/booking/movieProcessor/DriveCustomer.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/booking/revenueGenerator/TotalRevenueTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/booking/printExecutor/PriceUtilityTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/booking/printExecutor/PrintUtilityTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/booking/revenueGenerator/TotalRevenueTest.java" />
       </list>
     </option>
   </component>
@@ -523,7 +517,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598193101224" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598193718967" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -574,8 +568,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in movie-booking.movie-booking.test">
-    <configuration name="All in movie-booking.movie-booking.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.All in movie-booking.movie-booking.test (3)">
+    <configuration name="All in movie-booking.movie-booking.test (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="movie-booking.movie-booking.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -583,7 +577,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in movie-booking.movie-booking.test (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in movie-booking.movie-booking.test (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="movie-booking.movie-booking.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -631,11 +625,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in movie-booking.movie-booking.test (3)" />
         <item itemvalue="JUnit.All in movie-booking.movie-booking.test" />
         <item itemvalue="JUnit.TotalRevenueTest" />
         <item itemvalue="JUnit.All in movie-booking.movie-booking.test (2)" />
         <item itemvalue="JUnit.PrintUtilityTest" />
-        <item itemvalue="JUnit.All in movie-booking.movie-booking.test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -652,23 +646,11 @@
       <workItem from="1598065426707" duration="27085000" />
       <workItem from="1598098869705" duration="11440000" />
       <workItem from="1598191191091" duration="55000" />
-      <workItem from="1598191272489" duration="1405000" />
+      <workItem from="1598191272489" duration="2043000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PrintUtilityTest_printDetailsWithSeatsSelected - 2020.08.23 at 18h 22m 42s.xml">
-      <configuration name="PrintUtilityTest.printDetailsWithSeatsSelected" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrintUtilityTest - 2020.08.23 at 18h 22m 49s.xml">
-      <configuration name="PrintUtilityTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrintUtilityTest - 2020.08.23 at 18h 23m 06s.xml">
-      <configuration name="PrintUtilityTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_movie-booking_movie-booking_test_(1) - 2020.08.23 at 19h 15m 18s.xml">
-      <configuration name="All in movie-booking.movie-booking.test (1)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PriceUtilityTest - 2020.08.23 at 19h 56m 38s.xml">
       <configuration name="PriceUtilityTest" configurationId="JUnit" />
     </history-entry>
@@ -687,9 +669,21 @@
     <history-entry file="All_in_movie-booking_movie-booking_test_(2) - 2020.08.23 at 19h 59m 39s.xml">
       <configuration name="All in movie-booking.movie-booking.test (2)" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_movie-booking_movie-booking_test_(2) - 2020.08.23 at 20h 00m 45s.xml">
+      <configuration name="All in movie-booking.movie-booking.test (2)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_movie-booking_movie-booking_test_(2) - 2020.08.23 at 20h 00m 58s.xml">
+      <configuration name="All in movie-booking.movie-booking.test (2)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TotalRevenueTest - 2020.08.23 at 20h 01m 23s.xml">
+      <configuration name="TotalRevenueTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_movie-booking_movie-booking_test - 2020.08.23 at 20h 01m 43s.xml">
+      <configuration name="All in movie-booking.movie-booking.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65912000" />
+    <option name="totallyTimeSpent" value="66550000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -713,13 +707,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3488121" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3488121" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32937366" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.33801296" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33801296" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -1032,18 +1026,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/booking/revenueGenerator/TotalRevenueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/booking/printExecutor/PriceUtilityTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1206">
@@ -1056,10 +1038,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/booking/printExecutor/PrintUtilityTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="902">
-          <caret line="41" column="78" selection-start-line="41" selection-start-column="78" selection-end-line="41" selection-end-column="78" />
+        <state relative-caret-position="374">
+          <caret line="17" column="48" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/booking/revenueGenerator/TotalRevenueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
           </folding>
         </state>
       </provider>
