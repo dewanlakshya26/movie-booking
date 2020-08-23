@@ -1,11 +1,9 @@
 
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-
+@TestInstance(TestInstance.Lifecycle.PER_METHOD)
 public class TotalRevenueTest {
 
     private TotalRevenue totalRevenue;
@@ -16,6 +14,7 @@ public class TotalRevenueTest {
     }
 
     @Test
+    @Disabled
     @DisplayName("total revenue should be 0 if non tickets were booked")
     void zeroRevenue(){
       double revenue =  totalRevenue.getRevenue();
