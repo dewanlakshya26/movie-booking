@@ -1,20 +1,19 @@
 import java.util.*;
 
 public class DriveCustomer {
-    Scanner scanner = new Scanner(System.in);
+    private Scanner scanner = new Scanner(System.in);
     private static boolean seatAvailiable = false;
 
-     void play() {
+    void play() {
         System.out.println("Enter Show no");
         final String showNo = scanner.next();
         if (showNo.equals("0")) {
             shutDown();
         }
         driveCustomer(showNo);
-
     }
 
-    private void driveCustomer(String showNumber) {
+     void driveCustomer(String showNumber) {
 
         while (true)
             if (showNumber.equals(Enums.ShowNumber.AUDI1.getAudiNo())) {
@@ -30,12 +29,12 @@ public class DriveCustomer {
     }
 
     private void continueMovieBooking(Map<String, Enums.TicketType> audi, String showNo) {
+        checkAvailableSeats(audi);
         System.out.println("Please select movies from below list");
         System.out.println(Arrays.toString(audi.keySet().toArray()));
         System.out.println("Enter Seats");
         String[] seatNumbers = scanner.next().split(",");
         Set seatNumbersSet = new HashSet<>(Arrays.asList(seatNumbers));
-
 
         for (Object seatNo : seatNumbersSet) {
             seatAvailiable = audi.containsKey(seatNo);
@@ -59,7 +58,14 @@ public class DriveCustomer {
 
     }
 
-    private void shutDown() {
+     void checkAvailableSeats(Map<String, Enums.TicketType> audi) {
+        if (audi.isEmpty()) {
+            System.out.println("No more seats available in this auditorium");
+            shutDown();
+        }
+    }
+
+     void shutDown() {
         System.out.println("Shutting down the booking counter");
         PrintUtility.printTotalRevenue();
         System.exit(0);
