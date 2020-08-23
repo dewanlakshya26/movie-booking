@@ -13,7 +13,7 @@ public class PrintUtility {
     }
 
     static void continueWithPriceDescription(Map<String, Enums.TicketType> audi, Set seatNumbers, String showNo) {
-        System.out.println("Print: Successfully Booked - Show" + showNo);
+        System.out.println("Successfully Booked - Show" + showNo);
         double price = PricesUtility.getPrice(audi, seatNumbers);
         double serviceTax = PricesUtility.getServiceTax(price);
         double swatchBharatTax = PricesUtility.getSwachhBharatTax(price);

@@ -33,12 +33,6 @@ class MovieLoader {
     }
 
     private void loadSeatsPerAudi(JSONObject showList) {
-//        Enums.ShowNumber[] showNo = Enums.ShowNumber.values();
-//        for (Enums.ShowNumber show : showNo) {
-//            String audiNumber = show.getAudiNo();
-//            JSONObject showseats = (JSONObject) showList.get(audiNumber);
-//            loadSeat(showseats, show);
-
         EnumSet.allOf(Enums.ShowNumber.class)
                 .forEach(showNumber -> loadSeat((JSONObject) showList.get(showNumber.getAudiNo()),showNumber));
         }
@@ -47,32 +41,29 @@ class MovieLoader {
     private void loadSeat(JSONObject movieObject, Enums.ShowNumber show) {
         switch (show) {
             case AUDI1:
-                audi1.putAll(loadSeatsInAudi(movieObject, audi1));
+                loadSeatsInAudi(movieObject, audi1);
                 break;
             case AUDI2:
-                audi2.putAll(loadSeatsInAudi(movieObject, audi2));
+                loadSeatsInAudi(movieObject, audi2);
                 break;
             case AUDI3:
-                audi3.putAll(loadSeatsInAudi(movieObject, audi3));
+                loadSeatsInAudi(movieObject, audi3);
                 break;
         }
 
 
     }
 
-    private Map<String, Enums.TicketType> loadSeatsInAudi(JSONObject movieObject, Map<String, Enums.TicketType> audi) {
-        EnumSet.allOf(Enums.TicketType.class).forEach((category) ->
+    private void loadSeatsInAudi(JSONObject movieObject, Map<String, Enums.TicketType> audi) {
+        EnumSet.allOf(Enums.TicketType.class).forEach(category ->
             loadSeatWithCategory(audi, (String) movieObject.get(category.name()),category));
-        return audi;
     }
 
-    private Map<String, Enums.TicketType> loadSeatWithCategory(Map<String, Enums.TicketType> audi, String platinumMovie, Enums.TicketType ticketType) {
-        String[] platinumMovieList = platinumMovie.split(",");
-        for (String platinumSeat : platinumMovieList
-        ) {
-            audi.put(platinumSeat, ticketType);
+    private void loadSeatWithCategory(Map<String, Enums.TicketType> audi, String seatList, Enums.TicketType ticketType) {
+        String[] segregatedSeats = seatList.split(",");
+        for (String seat : segregatedSeats) {
+            audi.put(seat, ticketType);
         }
-        return audi;
     }
 
 
