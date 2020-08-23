@@ -15,20 +15,20 @@ import java.io.PrintStream;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @RunWith(PowerMockRunner.class)
-@TestInstance(TestInstance.Lifecycle.PER_CLASS)
+@TestInstance(TestInstance.Lifecycle.PER_METHOD)
 class PrintUtilityTest {
     private final ByteArrayOutputStream outputConsoleData = new ByteArrayOutputStream();
     private final PrintStream originalOut = System.out;
-    @Mock
-    TotalRevenue totalRevenue;
+    private PrintUtility printHandler = new PrintUtility();
+
+
 
         @Test
         @DisplayName("should print total amount and taxes when booking counter shutdown without booking any tickets")
         void printDetails(){
 
-
             System.setOut(new PrintStream(outputConsoleData));
-        PrintUtility.printTotalRevenue();
+            printHandler.printTotalRevenue();
             assertEquals("Total Sales:\n" +
                     "Revenue: Rs.0.0\n" +
                     "Service Tax: Rs. 0.0\n" +
@@ -39,9 +39,10 @@ class PrintUtilityTest {
         @Test
         @DisplayName("should print total amount and taxes when book tickets and then shutdown")
         void printDetailsWithSeatsSelected(){
+            TotalRevenue revenueHandler = TotalRevenue.getSingletonInstance();
             System.setOut(new PrintStream(outputConsoleData));
-        TotalRevenue.addRevenue(TicketType.PLATINUM.getPrice());
-        PrintUtility.printTotalRevenue();
+             revenueHandler.addRevenue(TicketType.PLATINUM.getPrice());
+             printHandler.printTotalRevenue();
             assertEquals("Total Sales:\n" +
                     "Revenue: Rs.320.0\n" +
                     "Service Tax: Rs. 44.8\n" +

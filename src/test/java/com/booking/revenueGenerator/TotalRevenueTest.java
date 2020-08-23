@@ -5,31 +5,27 @@ import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-@TestInstance(TestInstance.Lifecycle.PER_METHOD)
+@TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class TotalRevenueTest {
 
-    private TotalRevenue totalRevenue;
-
-    @BeforeEach
-    void init(){
-        totalRevenue = new TotalRevenue();
-    }
 
     @Test
-    @Disabled
     @DisplayName("total revenue should be 0 if non tickets were booked")
     void zeroRevenue(){
-      double revenue =  totalRevenue.getRevenue();
+        TotalRevenue revenueHandler = TotalRevenue.getSingletonInstance();
+        double revenue =  revenueHandler.getRevenue();
         assertEquals(0,revenue);
     }
 
     @Test
     @DisplayName("total revenue should added up on each movie booking")
     void addRevenue(){
-        TotalRevenue.addRevenue(TicketType.PLATINUM.getPrice());
-        TotalRevenue.addRevenue(TicketType.SILVER.getPrice());
+        TotalRevenue revenueHandler = TotalRevenue.getSingletonInstance();
 
-        assertEquals(560.0,totalRevenue.getRevenue());
+        revenueHandler.addRevenue(TicketType.PLATINUM.getPrice());
+        revenueHandler.addRevenue(TicketType.SILVER.getPrice());
+
+        assertEquals(560.0,revenueHandler.getRevenue());
     }
 
 }

@@ -1,29 +1,30 @@
 package com.booking.printExecutor;
 
 import com.booking.enums.TicketType;
-import com.booking.priceCalculator.PricesUtility;
+import com.booking.priceCalculator.PriceUtility;
 import com.booking.revenueGenerator.TotalRevenue;
 
 import java.util.Map;
 import java.util.Set;
 
 public class PrintUtility {
-    public static void printTotalRevenue() {
-        double revenue = new TotalRevenue().getRevenue();
+    PriceUtility priceObject = new PriceUtility();
+    public void printTotalRevenue() {
+        double revenue =  TotalRevenue.getSingletonInstance().getRevenue();
         System.out.println("Total Sales:");
         System.out.println("Revenue: Rs." + revenue);
-        System.out.println("Service Tax: Rs. " + PricesUtility.getServiceTax(revenue));
-        System.out.println("Swachh Bharat Cess: Rs. " + PricesUtility.getSwachhBharatTax(revenue));
-        System.out.println("Krishi Kalyan Cess: Rs. " + PricesUtility.getKrishiKalyanTax(revenue));
+        System.out.println("Service Tax: Rs. " + priceObject.getServiceTax(revenue));
+        System.out.println("Swachh Bharat Cess: Rs. " + priceObject.getSwachhBharatTax(revenue));
+        System.out.println("Krishi Kalyan Cess: Rs. " + priceObject.getKrishiKalyanTax(revenue));
 
     }
 
-    public static void continueWithPriceDescription(Map<String, TicketType> audi, Set seatNumbers, String showNo) {
+    public void continueWithPriceDescription(Map<String, TicketType> audi, Set seatNumbers, String showNo) {
         System.out.println("Successfully Booked - Show" + showNo);
-        double price = PricesUtility.getPrice(audi, seatNumbers);
-        double serviceTax = PricesUtility.getServiceTax(price);
-        double swatchBharatTax = PricesUtility.getSwachhBharatTax(price);
-        double krishiKalyanTax = PricesUtility.getKrishiKalyanTax(price);
+        double price = priceObject.getPrice(audi, seatNumbers);
+        double serviceTax = priceObject.getServiceTax(price);
+        double swatchBharatTax = priceObject.getSwachhBharatTax(price);
+        double krishiKalyanTax = priceObject.getKrishiKalyanTax(price);
         double totalAmount = price + serviceTax + swatchBharatTax + krishiKalyanTax;
         System.out.println("Subtotal: Rs. " + price);
         System.out.println("Service Tax @14%: Rs." + serviceTax);

@@ -1,9 +1,21 @@
 package com.booking.revenueGenerator;
 
 public class TotalRevenue {
-    private static double revenue = 0;
+    private double revenue = 0;
+    private static TotalRevenue totalRevenueInstance = null;
 
-    public static void addRevenue(double incomingrevenue) {
+    private TotalRevenue() {
+    }
+
+    public static TotalRevenue getSingletonInstance(){
+        if (totalRevenueInstance == null){
+            totalRevenueInstance = new TotalRevenue();
+        }
+        return totalRevenueInstance;
+    }
+
+
+    public void addRevenue(double incomingrevenue) {
         revenue += incomingrevenue;
     }
 

@@ -1,7 +1,7 @@
 package com.booking.printExecutor;
 
 import com.booking.enums.TicketType;
-import com.booking.priceCalculator.PricesUtility;
+import com.booking.priceCalculator.PriceUtility;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -14,26 +14,27 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class PriceUtilityTest {
+    PriceUtility priceHandler = new PriceUtility();
 
 
     @Test
     @DisplayName("service tax should be 14 percent")
     void checkServiceTest() {
-        double serviceTax = PricesUtility.getServiceTax(100.0);
+        double serviceTax = priceHandler.getServiceTax(100.0);
         assertEquals(14.0, serviceTax);
     }
 
     @Test
     @DisplayName("swatch bharat tax should be 0.5 percent")
     void checkSwatchBharatTest() {
-        double swatchBharatTax = PricesUtility.getSwachhBharatTax(100.0);
+        double swatchBharatTax = priceHandler.getSwachhBharatTax(100.0);
         assertEquals(0.5, swatchBharatTax);
     }
 
     @Test
     @DisplayName("krishi kalyan tax should be 0.5 percent")
     void checkKrishiKalyanTest() {
-        double krishiKalyanTax = PricesUtility.getKrishiKalyanTax(100.0);
+        double krishiKalyanTax = priceHandler.getKrishiKalyanTax(100.0);
         assertEquals(0.5, krishiKalyanTax);
     }
 
@@ -44,7 +45,7 @@ class PriceUtilityTest {
         movieList.put("B1", TicketType.GOLD);
         Set<String> selectedSeat = new HashSet<>();
         selectedSeat.add("B1");
-        double price = PricesUtility.getPrice(movieList, selectedSeat);
+        double price = priceHandler.getPrice(movieList, selectedSeat);
         assertEquals(280, price);
 
     }
@@ -56,7 +57,7 @@ class PriceUtilityTest {
         movieList.put("C1", TicketType.SILVER);
         Set<String> selectedSeat = new HashSet<>();
         selectedSeat.add("C1");
-        PricesUtility.getPrice(movieList, selectedSeat);
+        priceHandler.getPrice(movieList, selectedSeat);
         assertTrue(movieList.isEmpty());
 
     }

@@ -8,7 +8,9 @@ import java.util.*;
 
 public class DriveCustomer {
     private Scanner scanner = new Scanner(System.in);
-    private static boolean seatAvailiable = false;
+    private boolean seatAvailiable = false;
+    private PrintUtility printHandler = new PrintUtility();
+
 
     void play() {
         System.out.println("Enter Show no");
@@ -49,7 +51,7 @@ public class DriveCustomer {
             }
         }
         if (seatAvailiable) {
-            PrintUtility.continueWithPriceDescription(audi, seatNumbersSet, showNo);
+            printHandler.continueWithPriceDescription(audi, seatNumbersSet, showNo);
         } else {
             for (String seatNo : seatNumbers) {
                 if (!audi.containsKey(seatNo)) {
@@ -73,7 +75,7 @@ public class DriveCustomer {
 
     void shutDown() {
         System.out.println("Shutting down the booking counter");
-        PrintUtility.printTotalRevenue();
+        printHandler.printTotalRevenue();
         System.exit(0);
     }
 }
