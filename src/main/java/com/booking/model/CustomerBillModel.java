@@ -1,5 +1,7 @@
 package com.booking.model;
 
+import java.util.Objects;
+
 public class CustomerBillModel extends BillModel {
     private double price;
     private double totalBill;
@@ -10,19 +12,33 @@ public class CustomerBillModel extends BillModel {
         this.totalBill = totalBill;
     }
 
-    public double getPrice() {
-        return price;
-    }
-
-    public void setPrice(double price) {
-        this.price = price;
-    }
-
     public double getTotalBill() {
         return totalBill;
     }
 
-    public void setTotalBill(double totalBill) {
-        this.totalBill = totalBill;
+    public double getPrice() {
+        return price;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        CustomerBillModel that = (CustomerBillModel) o;
+        return Double.compare(that.price, price) == 0 &&
+                Double.compare(that.totalBill, totalBill) == 0;
+    }
+
+    @Override
+    public String toString() {
+        return "CustomerBillModel{" +
+                "price=" + price +
+                ", totalBill=" + totalBill +
+                '}';
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(price, totalBill);
     }
 }

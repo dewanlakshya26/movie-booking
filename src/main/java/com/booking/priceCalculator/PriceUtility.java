@@ -10,19 +10,19 @@ import java.util.Map;
 import java.util.Set;
 
 public class PriceUtility {
-    private double getServiceTax(double price) {
+     double getServiceTax(double price) {
         return (price * Tax.SERVICE_TAX.getTax()) / 100;
     }
 
-    private double getSwachhBharatTax(double price) {
+     double getSwachhBharatTax(double price) {
         return (price * Tax.SWACHHBHARAT_TAX.getTax()) / 100;
     }
 
-    private double getKrishiKalyanTax(double price) {
+     double getKrishiKalyanTax(double price) {
         return (price * Tax.KRISHIKALYAN_TAX.getTax()) / 100;
     }
 
-    private double getPrice(Map<String, TicketType> audi, Set seatNumbers) {
+     double getPrice(Map<String, TicketType> audi, Set seatNumbers) {
         double price = 0;
         for (Object seatNo : seatNumbers) {
             price += audi.get(seatNo).getPrice();
@@ -37,7 +37,7 @@ public class PriceUtility {
         double serviceTax = getServiceTax(price);
         double swatchBharatTax = getSwachhBharatTax(price);
         double krishiKalyanTax = getKrishiKalyanTax(price);
-        double totalBill = price + swatchBharatTax + krishiKalyanTax;
+        double totalBill = price + serviceTax + swatchBharatTax + krishiKalyanTax;
         return new CustomerBillModel(serviceTax, swatchBharatTax, krishiKalyanTax, price, totalBill);
     }
 
