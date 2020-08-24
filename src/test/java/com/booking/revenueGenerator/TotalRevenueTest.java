@@ -1,13 +1,10 @@
 package com.booking.revenueGenerator;
 
-import org.junit.FixMethodOrder;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.junit.runners.MethodSorters;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 class TotalRevenueTest {
 
     @Test

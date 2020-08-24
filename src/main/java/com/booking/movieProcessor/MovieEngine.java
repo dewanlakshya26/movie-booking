@@ -10,7 +10,7 @@ import java.util.*;
 
 public class MovieEngine {
     private Scanner scanner = new Scanner(System.in);
-    private boolean seatAvailiable = false;
+    private boolean seatAvailable = false;
     private PrintUtility printHandler = new PrintUtility();
     private PriceUtility priceHandler = new PriceUtility();
 
@@ -24,18 +24,16 @@ public class MovieEngine {
     void bookTickets(String showNumber) {
         MovieLoader movieLoader = MovieLoader.getMovieLoaderSingletonInstance();
 
-        while (true) {
-            try {
-                if (Integer.parseInt(showNumber) != 0 && Integer.parseInt(showNumber) <= ShowNumber.values().length) {
-                    continueMovieBooking(movieLoader.getAuditoriumWiseSeatList(Integer.parseInt(showNumber)), showNumber);
-                } else {
-                    System.out.println("Please select shows between 1,2 and 3");
-                    shutDown();
-                }
-            } catch (Exception e) {
+        try {
+            if (Integer.parseInt(showNumber) != 0 && Integer.parseInt(showNumber) <= ShowNumber.values().length) {
+                continueMovieBooking(movieLoader.getAuditoriumWiseSeatList(Integer.parseInt(showNumber)), showNumber);
+            } else {
                 System.out.println("Please select shows between 1,2 and 3");
                 shutDown();
             }
+        } catch (Exception e) {
+            System.out.println("Please select shows between 1,2 and 3");
+            shutDown();
         }
     }
 
@@ -65,12 +63,12 @@ public class MovieEngine {
         Set selectedSeats = new HashSet<>(Arrays.asList(seatNumbers));
 
         for (Object seatNo : selectedSeats) {
-            seatAvailiable = audi.containsKey(seatNo);
-            if (!seatAvailiable) {
+            seatAvailable = audi.containsKey(seatNo);
+            if (!seatAvailable) {
                 break;
             }
         }
-        if (seatAvailiable) {
+        if (seatAvailable) {
             return selectedSeats;
         } else {
             for (String seatNo : seatNumbers) {

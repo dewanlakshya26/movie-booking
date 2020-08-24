@@ -9,7 +9,7 @@ class TaxTest {
 
     @Test
     @DisplayName("should have total 3 different kinds of taxes")
-    void shouldHaveThreeToatalTaxes() {
+    void shouldHaveThreeTotalTaxes() {
         Tax[] taxType = Tax.values();
         assertEquals(3, taxType.length);
     }

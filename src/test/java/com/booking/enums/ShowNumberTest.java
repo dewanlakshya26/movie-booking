@@ -15,7 +15,7 @@ class ShowNumberTest {
     }
 
     @Test
-    @DisplayName("Should Initialze second auditorium number")
+    @DisplayName("Should Initialize second auditorium number")
     void shouldInitialiseSecondAudiNo() {
         ShowNumber showNumber = ShowNumber.AUDI2;
         assertEquals(String.valueOf(2), showNumber.getAudiNo());

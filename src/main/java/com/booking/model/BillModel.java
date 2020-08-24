@@ -4,23 +4,25 @@ import java.util.Objects;
 
 public class BillModel {
     private double serviceTax;
-    private double swatchBharatTax;
+    private double swacchBharatTax;
+    private double krishiKalyanTax;
+
 
     public double getServiceTax() {
         return serviceTax;
     }
 
-    public double getSwatchBharatTax() {
-        return swatchBharatTax;
+    public double getSwacchBharatTax() {
+        return swacchBharatTax;
     }
 
     public double getKrishiKalyanTax() {
         return krishiKalyanTax;
     }
 
-    public BillModel(double serviceTax, double swatchBharatTax, double krishiKalyanTax) {
+    public BillModel(double serviceTax, double swacchBharatTax, double krishiKalyanTax) {
         this.serviceTax = serviceTax;
-        this.swatchBharatTax = swatchBharatTax;
+        this.swacchBharatTax = swacchBharatTax;
         this.krishiKalyanTax = krishiKalyanTax;
     }
 
@@ -30,7 +32,7 @@ public class BillModel {
         if (o == null || getClass() != o.getClass()) return false;
         BillModel billModel = (BillModel) o;
         return Double.compare(billModel.serviceTax, serviceTax) == 0 &&
-                Double.compare(billModel.swatchBharatTax, swatchBharatTax) == 0 &&
+                Double.compare(billModel.swacchBharatTax, swacchBharatTax) == 0 &&
                 Double.compare(billModel.krishiKalyanTax, krishiKalyanTax) == 0;
     }
 
@@ -38,15 +40,14 @@ public class BillModel {
     public String toString() {
         return "BillModel{" +
                 "serviceTax=" + serviceTax +
-                ", swatchBharatTax=" + swatchBharatTax +
+                ", swatchBharatTax=" + swacchBharatTax +
                 ", krishiKalyanTax=" + krishiKalyanTax +
                 '}';
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(serviceTax, swatchBharatTax, krishiKalyanTax);
+        return Objects.hash(serviceTax, swacchBharatTax, krishiKalyanTax);
     }
 
-    private double krishiKalyanTax;
 }

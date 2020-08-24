@@ -24,7 +24,7 @@ class PriceUtilityTest {
     }
 
     @Test
-    @DisplayName("swatch bharat tax should be 0.5 percent")
+    @DisplayName("swaach bharat tax should be 0.5 percent")
     void checkSwatchBharatTest() {
         double swatchBharatTax = priceHandler.getSwachhBharatTax(100.0);
         assertEquals(0.5, swatchBharatTax);
@@ -50,7 +50,7 @@ class PriceUtilityTest {
     }
 
     @Test
-    @DisplayName("should fgive customer details model when provided eith seat numbers")
+    @DisplayName("should give customer details model when provided with seat numbers")
     void getCustomerDetailedModel() {
         CustomerBillModel expectedCustomerBillModel = new CustomerBillModel(39.2, 1.4, 1.4, 280.0, 321.99999999999994);
         Map<String, TicketType> movieList = new HashMap<>();

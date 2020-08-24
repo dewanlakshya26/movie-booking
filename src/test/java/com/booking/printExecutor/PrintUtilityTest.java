@@ -4,17 +4,12 @@ import com.booking.model.CustomerBillModel;
 import com.booking.model.TotalBillModel;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.TestInstance;
-import org.junit.runner.RunWith;
-import org.powermock.modules.junit4.PowerMockRunner;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-@RunWith(PowerMockRunner.class)
-@TestInstance(TestInstance.Lifecycle.PER_METHOD)
 class PrintUtilityTest {
 
     private final ByteArrayOutputStream outputConsoleData = new ByteArrayOutputStream();
