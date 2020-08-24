@@ -2,8 +2,8 @@ package com.booking.model;
 
 import java.util.Objects;
 
-public class TotalBillModel extends BillModel{
-  double totalRevenue;
+public class TotalBillModel extends BillModel {
+    private double totalRevenue;
 
     public TotalBillModel(double serviceTax, double swatchBharatTax, double krishiKalyanTax, double totalRevenue) {
         super(serviceTax, swatchBharatTax, krishiKalyanTax);

@@ -24,18 +24,18 @@ class MovieLoader {
     }
 
 
-    public static MovieLoader getMovieLoaderSingletonInstance() {
+    static MovieLoader getMovieLoaderSingletonInstance() {
         if (movieLoaderSingletonInstance == null) {
             movieLoaderSingletonInstance = new MovieLoader();
         }
         return movieLoaderSingletonInstance;
     }
 
-    public Map<String, TicketType> getAuditoriumWiseSeatList(int auditoriumNo) {
+    Map<String, TicketType> getAuditoriumWiseSeatList(int auditoriumNo) {
         return auditoriumLoaderList.get(auditoriumNo - 1);
     }
 
-    void loadMovieFromSeed() {
+    private void loadMovieFromSeed() {
         JSONParser jsonParser = new JSONParser();
 
         String showListPath = new File("").getAbsolutePath() + "/src/main/resources/movie-list.json";
@@ -50,19 +50,19 @@ class MovieLoader {
 
     }
 
-    void loadSeatsPerAuditorium(JSONObject showList) {
+    private void loadSeatsPerAuditorium(JSONObject showList) {
         System.out.println(auditoriumLoaderList.size());
         EnumSet.allOf(ShowNumber.class)
                 .forEach(showNumber -> {
                     HashMap<String, TicketType> movieListPerAuditorium = new HashMap<>();
                     EnumSet.allOf(TicketType.class).forEach(category ->
-                        movieListPerAuditorium.putAll(loadSeatWithCategory((String) ((JSONObject) showList.get(showNumber.getAudiNo())).get(category.name()), category)));
+                            movieListPerAuditorium.putAll(loadSeatWithCategory((String) ((JSONObject) showList.get(showNumber.getAudiNo())).get(category.name()), category)));
                     auditoriumLoaderList.add(movieListPerAuditorium);
                 });
     }
 
 
-     HashMap<String, TicketType> loadSeatWithCategory(String seatList, TicketType category) {
+    HashMap<String, TicketType> loadSeatWithCategory(String seatList, TicketType category) {
         HashMap<String, TicketType> movieListPerCategory = new HashMap<>();
         String[] segregatedSeats = seatList.split(",");
         for (String seat : segregatedSeats) {

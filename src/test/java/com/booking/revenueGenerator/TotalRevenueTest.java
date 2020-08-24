@@ -8,7 +8,7 @@ import org.junit.runners.MethodSorters;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
-public class TotalRevenueTest {
+class TotalRevenueTest {
 
     @Test
     @DisplayName("should update the total revenue")

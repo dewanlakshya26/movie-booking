@@ -18,7 +18,7 @@ import static org.testng.AssertJUnit.assertEquals;
 class MovieEngineTest {
 
 
-    MovieEngine movieEngineInstance = new MovieEngine();
+    private MovieEngine movieEngineInstance = new MovieEngine();
     private final ByteArrayOutputStream outputConsoleData = new ByteArrayOutputStream();
 
 

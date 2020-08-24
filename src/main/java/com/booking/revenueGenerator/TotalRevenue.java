@@ -7,8 +7,8 @@ public class TotalRevenue {
     private TotalRevenue() {
     }
 
-    public static TotalRevenue getSingletonInstance(){
-        if (totalRevenueInstance == null){
+    public static TotalRevenue getSingletonInstance() {
+        if (totalRevenueInstance == null) {
             totalRevenueInstance = new TotalRevenue();
         }
         return totalRevenueInstance;

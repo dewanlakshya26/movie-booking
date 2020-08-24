@@ -13,7 +13,7 @@ import java.util.Set;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class PriceUtilityTest {
-    PriceUtility priceHandler = new PriceUtility();
+    private PriceUtility priceHandler = new PriceUtility();
 
 
     @Test
