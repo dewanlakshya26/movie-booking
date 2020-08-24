@@ -1,45 +1,44 @@
-//package com.booking.movieProcessor;
-//
-//import org.json.simple.JSONObject;
-//import org.junit.jupiter.api.BeforeAll;
-//import org.junit.jupiter.api.DisplayName;
-//import org.junit.jupiter.api.Test;
-//import org.junit.jupiter.api.TestInstance;
-//
-//import static org.junit.jupiter.api.Assertions.assertFalse;
-//
-//
-//@TestInstance(TestInstance.Lifecycle.PER_CLASS)
-//class MovieLoaderTest {
-//
-//    private MovieLoader movieLoaderInstance;
-//
-//    @BeforeAll
-//    void init(){
-//        movieLoaderInstance = new MovieLoader();
-//    }
-//
-//
-//    @Test
-//    @DisplayName("should load movies when we create instance of Loader class")
-//    void loadMoviesWithCategories(){
-//        JSONObject dummyJsonObject = (JSONObject) new JSONObject().put("1","{\n" +
-//                "    \"PLATINUM\": \"A1,A2,A3,A4,A5,A6,A7,A8,A9\",\n" +
-//                "    \"GOLD\": \"B1,B2,B3,B4,B5,B6\",\n" +
-//                "    \"SILVER\": \"C2,C3,C4,C5,C6,C7\"\n" +
-//                "  }");
-//        assertFalse(MovieLoader.audi1.isEmpty());
-//    }
-//
-//    @Test
-//    @DisplayName("load seat into second auditrium when called")
-//    void fillSecondAuditorium(){
-//        JSONObject dummyJsonObject = (JSONObject) new JSONObject().put("2","{\n" +
-//                "    \"PLATINUM\": \"A1,A2,A3,A4,A5,A6,A7,A8,A9\",\n" +
-//                "    \"GOLD\": \"B1,B2,B3,B4,B5,B6\",\n" +
-//                "    \"SILVER\": \"C2,C3,C4,C5,C6,C7\"\n" +
-//                "  }");
-//        assertFalse(MovieLoader.audi2.isEmpty());
-//    }
-//
-//}
+package com.booking.movieProcessor;
+
+import com.booking.enums.TicketType;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+
+import java.util.HashMap;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+
+
+class MovieLoaderTest {
+
+
+    @Test
+    @DisplayName("should get the same instance every time without overriding equals method")
+    void checkClassInstance() {
+        MovieLoader movieLoaderInstanceFirst = MovieLoader.getMovieLoaderSingletonInstance();
+        MovieLoader movieLoaderInstanceSecond = MovieLoader.getMovieLoaderSingletonInstance();
+
+        assertEquals(movieLoaderInstanceFirst, movieLoaderInstanceSecond);
+    }
+
+
+    @Test
+    @DisplayName("should load movies when we create instance of Loader class")
+    void loadMoviesWithCategories() {
+        MovieLoader movieLoaderInstance = MovieLoader.getMovieLoaderSingletonInstance();
+
+        assertFalse(movieLoaderInstance.getAuditoriumWiseSeatList(1).isEmpty());
+    }
+
+    @Test
+    @DisplayName("should be able to return seats with category")
+    void fillSecondAuditorium() {
+        HashMap<String, TicketType> expectedList = new HashMap<>();
+        expectedList.put("A1", TicketType.PLATINUM);
+        MovieLoader movieLoaderInstance = MovieLoader.getMovieLoaderSingletonInstance();
+        String seatList = "A1";
+        assertEquals(expectedList, movieLoaderInstance.loadSeatWithCategory(seatList, TicketType.PLATINUM));
+    }
+
+}

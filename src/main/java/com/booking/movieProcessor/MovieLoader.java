@@ -62,7 +62,7 @@ class MovieLoader {
     }
 
 
-    private HashMap<String, TicketType> loadSeatWithCategory(String seatList, TicketType category) {
+     HashMap<String, TicketType> loadSeatWithCategory(String seatList, TicketType category) {
         HashMap<String, TicketType> movieListPerCategory = new HashMap<>();
         String[] segregatedSeats = seatList.split(",");
         for (String seat : segregatedSeats) {

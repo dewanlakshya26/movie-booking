@@ -57,7 +57,7 @@ public class MovieEngine {
     }
 
 
-    private Set fetchSelectedSeats(Map<String, TicketType> audi) {
+     Set fetchSelectedSeats(Map<String, TicketType> audi) {
         System.out.println("Please select movies from below list");
         System.out.println(Arrays.toString(audi.keySet().toArray()));
         System.out.println("Enter Seats");
@@ -82,7 +82,7 @@ public class MovieEngine {
         }
     }
 
-    private void removeSelectedSeatsFromAuditorium(Map<String, TicketType> audi, Set selectedSeats) {
+     void removeSelectedSeatsFromAuditorium(Map<String, TicketType> audi, Set selectedSeats) {
         selectedSeats.forEach(seat -> audi.remove(seat));
     }
 

@@ -2,7 +2,6 @@ package com.booking.priceCalculator;
 
 import com.booking.enums.TicketType;
 import com.booking.model.CustomerBillModel;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -12,7 +11,6 @@ import java.util.Map;
 import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class PriceUtilityTest {
     PriceUtility priceHandler = new PriceUtility();
@@ -53,8 +51,8 @@ class PriceUtilityTest {
 
     @Test
     @DisplayName("should fgive customer details model when provided eith seat numbers")
-    void getCustomerDetailedModel(){
-        CustomerBillModel expectedCustomerBillModel = new CustomerBillModel(39.2,1.4,1.4,280.0,321.99999999999994);
+    void getCustomerDetailedModel() {
+        CustomerBillModel expectedCustomerBillModel = new CustomerBillModel(39.2, 1.4, 1.4, 280.0, 321.99999999999994);
         Map<String, TicketType> movieList = new HashMap<>();
         movieList.put("B1", TicketType.GOLD);
         Set<String> selectedSeat = new HashSet<>();

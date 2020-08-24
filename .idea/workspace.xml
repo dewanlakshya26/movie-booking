@@ -2,73 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="645209d5-6ef9-400d-9bd6-e19966214b6b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.0/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.0/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.0/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.0/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.0/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.0/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.0/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.0/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.0/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.0/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/DriveCustomer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Enums$ShowNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Enums$Tax.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Enums$TicketType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Enums.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/MovieBooking.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/MovieLoader$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/MovieLoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/PricesUtility.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/PrintUtility.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/TotalRevenue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/DriveCustomerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/EnumsTest$ShowNumberTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/EnumsTest$TaxTypeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/EnumsTest$TicketTypeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/EnumsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/MovieLoaderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/PriceUtilityTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/PrintUtilityTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/TotalRevenueTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/distributions/movie-booking-1.0-SNAPSHOT.tar" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/movie-booking-1.0-SNAPSHOT.tar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/distributions/movie-booking-1.0-SNAPSHOT.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/movie-booking-1.0-SNAPSHOT.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/movie-booking-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/movie-booking-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/movie-list.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/movie-list.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/scripts/movie-booking" beforeDir="false" afterPath="$PROJECT_DIR$/build/scripts/movie-booking" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/scripts/movie-booking.bat" beforeDir="false" afterPath="$PROJECT_DIR$/build/scripts/movie-booking.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/expandedArchives/org.jacoco.agent-0.8.5.jar_6a2df60c47de373ea127d14406367999/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/expandedArchives/org.jacoco.agent-0.8.5.jar_6a2df60c47de373ea127d14406367999/META-INF/maven/org.jacoco/org.jacoco.agent/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/expandedArchives/org.jacoco.agent-0.8.5.jar_6a2df60c47de373ea127d14406367999/META-INF/maven/org.jacoco/org.jacoco.agent/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/expandedArchives/org.jacoco.agent-0.8.5.jar_6a2df60c47de373ea127d14406367999/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/expandedArchives/org.jacoco.agent-0.8.5.jar_6a2df60c47de373ea127d14406367999/jacocoagent.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/expandedArchives/org.jacoco.agent-0.8.5.jar_6a2df60c47de373ea127d14406367999/org/jacoco/agent/AgentJar.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/com/booking/model/BillModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/booking/model/BillModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/booking/model/CustomerBillModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/booking/model/CustomerBillModel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/com/booking/model/TotalBillModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/booking/model/TotalBillModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/booking/priceCalculator/PriceUtility.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/booking/priceCalculator/PriceUtility.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/booking/printExecutor/PrintUtility.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/booking/printExecutor/PrintUtility.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/movie-list.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/movie-list.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/booking/movieProcessor/DriveCustomerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/booking/movieProcessor/DriveCustomerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/booking/movieProcessor/MovieLoaderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/booking/printExecutor/PriceUtilityTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/booking/printExecutor/PrintUtilityTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/booking/printExecutor/PrintUtilityTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/booking/model/BillModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/booking/model/BillModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/booking/model/CustomerBillModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/booking/model/CustomerBillModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/booking/model/TotalBillModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/booking/model/TotalBillModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/booking/priceCalculator/PriceUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/booking/priceCalculator/PriceUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/booking/movieProcessor/DriveCustomerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/booking/priceCalculator/PriceUtilityTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/booking/priceCalculator/PriceUtilityTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/booking/revenueGenerator/TotalRevenueTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/booking/revenueGenerator/TotalRevenueTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/booking/movieProcessor/MovieEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/booking/movieProcessor/MovieEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/booking/movieProcessor/MovieLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/booking/movieProcessor/MovieLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/booking/movieProcessor/DriveCustomerTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/booking/movieProcessor/MovieLoaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/booking/movieProcessor/MovieLoaderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/booking/printExecutor/PriceUtilityTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/booking/printExecutor/PrintUtilityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/booking/printExecutor/PrintUtilityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/booking/priceCalculator/PriceUtilityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/booking/priceCalculator/PriceUtilityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/booking/revenueGenerator/TotalRevenueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/booking/revenueGenerator/TotalRevenueTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -142,19 +87,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/booking/movieProcessor/MovieBooking.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/booking/model/BillModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+            <state relative-caret-position="682">
+              <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/booking/priceCalculator/PriceUtilityTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/booking/movieProcessor/MovieLoaderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="56" column="66" selection-start-line="56" selection-start-column="66" selection-end-line="56" selection-end-column="66" />
+            <state relative-caret-position="-164">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -163,64 +108,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/booking/model/CustomerBillModel.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/movie-list.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-214">
-              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+            <state relative-caret-position="44">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/booking/movieProcessor/MovieLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="58">
+              <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
               <folding>
-                <element signature="e#458#459#0" expanded="true" />
-                <element signature="e#490#491#0" expanded="true" />
-                <element signature="e#427#428#0" expanded="true" />
-                <element signature="e#455#456#0" expanded="true" />
-                <element signature="e#864#865#0" expanded="true" />
-                <element signature="e#917#918#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/booking/movieProcessor/MovieEngineTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="62" column="43" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/booking/model/BillModel.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/booking/movieProcessor/MovieEngine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+            <state relative-caret-position="372">
+              <caret line="89" column="16" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="16" />
               <folding>
-                <element signature="e#155#156#0" expanded="true" />
-                <element signature="e#188#189#0" expanded="true" />
-                <element signature="e#326#327#0" expanded="true" />
-                <element signature="e#364#365#0" expanded="true" />
-                <element signature="e#522#523#0" expanded="true" />
-                <element signature="e#560#561#0" expanded="true" />
-                <element signature="e#1092#1093#0" expanded="true" />
-                <element signature="e#1173#1174#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/booking/movieProcessor/MovieLoaderTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/booking/revenueGenerator/TotalRevenueTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="36" column="44" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/booking/printExecutor/PrintUtility.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
+            <state relative-caret-position="332">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -231,14 +167,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/booking/model/TotalBillModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-              <folding>
-                <element signature="e#361#362#0" expanded="true" />
-                <element signature="e#396#397#0" expanded="true" />
-                <element signature="e#791#792#0" expanded="true" />
-                <element signature="e#858#859#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="616">
+              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -246,7 +176,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/booking/printExecutor/PrintUtilityTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
+            <state relative-caret-position="968">
               <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -258,8 +188,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/booking/priceCalculator/PriceUtility.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-291">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="572">
+              <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -312,7 +242,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/enums/ShowNumber.java" />
         <option value="$PROJECT_DIR$/src/main/java/enums/TicketType.java" />
         <option value="$PROJECT_DIR$/src/test/java/enums/ShowNumberTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/movie_booking/enums/Enums.java" />
@@ -342,27 +271,28 @@
         <option value="$PROJECT_DIR$/src/test/java/com/booking/enums/EnumsTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/booking/enums/TicketTypeTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/booking/enums/TaxTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/booking/movieProcessor/DriveCustomerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/booking/revenueGenerator/TotalRevenue.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/booking/priceCalculator/PricesUtility.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/booking/revenueGenerator/TotalRevenueTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/booking/movieProcessor/MovieBooking.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/booking/movieProcessor/MovieLoader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/booking/movieProcessor/DriveCustomer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/booking/PriceFields.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/booking/model/PriceFields.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/booking/movieProcessor/MovieEngine.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/booking/printExecutor/PrintUtility.java" />
         <option value="$PROJECT_DIR$/src/main/resources/movie-list.json" />
         <option value="$PROJECT_DIR$/src/test/java/com/booking/printExecutor/PriceUtilityTest.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/com/booking/priceCalculator/PriceUtility.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/booking/movieProcessor/MovieLoaderTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/booking/printExecutor/PrintUtilityTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/booking/model/CustomerBillModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/booking/priceCalculator/PriceUtility.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/booking/model/BillModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/booking/model/TotalBillModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/booking/model/CustomerBillModel.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/booking/movieProcessor/DriveCustomerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/booking/priceCalculator/PriceUtilityTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/booking/revenueGenerator/TotalRevenueTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/booking/movieProcessor/MovieLoader.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/booking/movieProcessor/MovieLoaderTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/booking/movieProcessor/MovieEngine.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/booking/movieProcessor/MovieEngineTest.java" />
       </list>
     </option>
   </component>
@@ -569,7 +499,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598241621693" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598258167909" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -623,7 +553,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DriveCustomerTest">
+  <component name="RunManager" selected="Application.MovieBooking">
+    <configuration name="MovieBooking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.booking.movieProcessor.MovieBooking" />
+      <module name="movie-booking.movie-booking.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.booking.movieProcessor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in movie-booking.movie-booking.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="movie-booking.movie-booking.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -632,7 +575,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DriveCustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MovieEngineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="movie-booking.movie-booking.test" />
       <extension name="coverage">
         <pattern>
@@ -641,54 +584,39 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.booking.movieProcessor" />
-      <option name="MAIN_CLASS_NAME" value="com.booking.movieProcessor.DriveCustomerTest" />
+      <option name="MAIN_CLASS_NAME" value="com.booking.movieProcessor.MovieEngineTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriceUtilityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MovieEngineTest.checkIfAuditoriumIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="movie-booking.movie-booking.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.booking.priceCalculator.*" />
+          <option name="PATTERN" value="com.booking.movieProcessor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.booking.priceCalculator" />
-      <option name="MAIN_CLASS_NAME" value="com.booking.priceCalculator.PriceUtilityTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PriceUtilityTest.getCustomerDetailedModel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="movie-booking.movie-booking.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.booking.priceCalculator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.booking.priceCalculator" />
-      <option name="MAIN_CLASS_NAME" value="com.booking.priceCalculator.PriceUtilityTest" />
-      <option name="METHOD_NAME" value="getCustomerDetailedModel" />
+      <option name="PACKAGE_NAME" value="com.booking.movieProcessor" />
+      <option name="MAIN_CLASS_NAME" value="com.booking.movieProcessor.MovieEngineTest" />
+      <option name="METHOD_NAME" value="checkIfAuditoriumIsEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintUtilityTest.printCustomerDetails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MovieEngineTest.shouldShutDown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="movie-booking.movie-booking.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.booking.printExecutor.*" />
+          <option name="PATTERN" value="com.booking.movieProcessor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.booking.printExecutor" />
-      <option name="MAIN_CLASS_NAME" value="com.booking.printExecutor.PrintUtilityTest" />
-      <option name="METHOD_NAME" value="printCustomerDetails" />
+      <option name="PACKAGE_NAME" value="com.booking.movieProcessor" />
+      <option name="MAIN_CLASS_NAME" value="com.booking.movieProcessor.MovieEngineTest" />
+      <option name="METHOD_NAME" value="shouldShutDown" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -696,11 +624,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DriveCustomerTest" />
+        <item itemvalue="Application.MovieBooking" />
         <item itemvalue="JUnit.All in movie-booking.movie-booking.test" />
-        <item itemvalue="JUnit.PriceUtilityTest" />
-        <item itemvalue="JUnit.PriceUtilityTest.getCustomerDetailedModel" />
-        <item itemvalue="JUnit.PrintUtilityTest.printCustomerDetails" />
+        <item itemvalue="JUnit.MovieEngineTest.shouldShutDown" />
+        <item itemvalue="JUnit.MovieEngineTest" />
+        <item itemvalue="JUnit.MovieEngineTest.checkIfAuditoriumIsEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -717,44 +645,45 @@
       <workItem from="1598065426707" duration="27085000" />
       <workItem from="1598098869705" duration="11440000" />
       <workItem from="1598191191091" duration="55000" />
-      <workItem from="1598191272489" duration="16512000" />
+      <workItem from="1598191272489" duration="17305000" />
+      <workItem from="1598255061094" duration="2948000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PrintUtilityTest_printCustomerDetails - 2020.08.24 at 09h 11m 44s.xml">
-      <configuration name="PrintUtilityTest.printCustomerDetails" configurationId="JUnit" />
+    <history-entry file="MovieLoaderTest_loadMoviesWithCategories - 2020.08.24 at 13h 26m 44s.xml">
+      <configuration name="MovieLoaderTest.loadMoviesWithCategories" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PrintUtilityTest_printCustomerDetails - 2020.08.24 at 09h 12m 33s.xml">
-      <configuration name="PrintUtilityTest.printCustomerDetails" configurationId="JUnit" />
+    <history-entry file="MovieLoaderTest_fillSecondAuditorium - 2020.08.24 at 13h 32m 17s.xml">
+      <configuration name="MovieLoaderTest.fillSecondAuditorium" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PrintUtilityTest_printCustomerDetails - 2020.08.24 at 09h 12m 57s.xml">
-      <configuration name="PrintUtilityTest.printCustomerDetails" configurationId="JUnit" />
+    <history-entry file="MovieLoaderTest_fillSecondAuditorium - 2020.08.24 at 13h 33m 06s.xml">
+      <configuration name="MovieLoaderTest.fillSecondAuditorium" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PriceUtilityTest - 2020.08.24 at 09h 13m 22s.xml">
-      <configuration name="PriceUtilityTest" configurationId="JUnit" />
+    <history-entry file="MovieEngineTest - 2020.08.24 at 13h 37m 16s.xml">
+      <configuration name="MovieEngineTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PriceUtilityTest_getCustomerDetailedModel - 2020.08.24 at 09h 21m 24s.xml">
-      <configuration name="PriceUtilityTest.getCustomerDetailedModel" configurationId="JUnit" />
+    <history-entry file="MovieEngineTest - 2020.08.24 at 13h 39m 29s.xml">
+      <configuration name="MovieEngineTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PriceUtilityTest_getCustomerDetailedModel - 2020.08.24 at 09h 23m 57s.xml">
-      <configuration name="PriceUtilityTest.getCustomerDetailedModel" configurationId="JUnit" />
+    <history-entry file="MovieEngineTest_getSelectedSeats - 2020.08.24 at 13h 53m 06s.xml">
+      <configuration name="MovieEngineTest.getSelectedSeats" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PriceUtilityTest_getCustomerDetailedModel - 2020.08.24 at 09h 24m 22s.xml">
-      <configuration name="PriceUtilityTest.getCustomerDetailedModel" configurationId="JUnit" />
+    <history-entry file="MovieEngineTest_removeSelectedSeats - 2020.08.24 at 13h 58m 37s.xml">
+      <configuration name="MovieEngineTest.removeSelectedSeats" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PriceUtilityTest_getCustomerDetailedModel - 2020.08.24 at 09h 25m 00s.xml">
-      <configuration name="PriceUtilityTest.getCustomerDetailedModel" configurationId="JUnit" />
+    <history-entry file="MovieEngineTest_checkIfAuditoriumIsEmpty - 2020.08.24 at 14h 00m 21s.xml">
+      <configuration name="MovieEngineTest.checkIfAuditoriumIsEmpty" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PriceUtilityTest_getCustomerDetailedModel - 2020.08.24 at 09h 25m 48s.xml">
-      <configuration name="PriceUtilityTest.getCustomerDetailedModel" configurationId="JUnit" />
+    <history-entry file="MovieEngineTest - 2020.08.24 at 14h 00m 37s.xml">
+      <configuration name="MovieEngineTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PriceUtilityTest_getCustomerDetailedModel - 2020.08.24 at 09h 26m 03s.xml">
-      <configuration name="PriceUtilityTest.getCustomerDetailedModel" configurationId="JUnit" />
+    <history-entry file="MovieEngineTest - 2020.08.24 at 14h 00m 38s.xml">
+      <configuration name="MovieEngineTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81019000" />
+    <option name="totallyTimeSpent" value="84760000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -769,7 +698,7 @@
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.255119" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.257886" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -778,13 +707,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3563715" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30453563" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32937366" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3736501" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32829374" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -926,13 +855,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/reports/tests/test/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/build/reports/tests/test/index.html" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-all/1.8.4/6cd3cee738c49b03562e0e951a4b7e1cb0db5896/mockito-all-1.8.4-sources.jar!/org/mockito/Mock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -997,70 +920,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/booking/revenueGenerator/TotalRevenueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/booking/enums/ShowNumberTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/booking/revenueGenerator/TotalRevenue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="54" lean-forward="true" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/booking/movieProcessor/DriveCustomerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/booking/movieProcessor/MovieLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="955">
-          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#606#607#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/movie-list.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/booking/movieProcessor/MovieEngine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="84" column="56" selection-start-line="84" selection-start-column="56" selection-end-line="84" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3124#3125#0" expanded="true" />
-            <element signature="e#3161#3162#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1079,46 +944,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/booking/priceCalculator/PriceUtility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-291">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/booking/model/BillModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-          <folding>
-            <element signature="e#155#156#0" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#1092#1093#0" expanded="true" />
-            <element signature="e#1173#1174#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/booking/model/TotalBillModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-          <folding>
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#791#792#0" expanded="true" />
-            <element signature="e#858#859#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/booking/printExecutor/PrintUtility.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="383">
@@ -1129,16 +954,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/booking/movieProcessor/MovieLoaderTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/booking/priceCalculator/PriceUtilityTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        <state relative-caret-position="968">
+          <caret line="54" column="117" selection-start-line="54" selection-start-column="117" selection-end-line="54" selection-end-column="117" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/booking/revenueGenerator/TotalRevenue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+          <folding>
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/booking/model/CustomerBillModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/booking/model/BillModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/booking/model/TotalBillModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/booking/printExecutor/PrintUtilityTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
+        <state relative-caret-position="968">
           <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1146,25 +1010,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/booking/model/CustomerBillModel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/booking/priceCalculator/PriceUtility.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-214">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        <state relative-caret-position="572">
+          <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
           <folding>
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-            <element signature="e#864#865#0" expanded="true" />
-            <element signature="e#917#918#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/booking/priceCalculator/PriceUtilityTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/booking/revenueGenerator/TotalRevenueTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="56" column="66" selection-start-line="56" selection-start-column="66" selection-end-line="56" selection-end-column="66" />
+        <state relative-caret-position="332">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/movie-list.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/booking/movieProcessor/MovieLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/booking/movieProcessor/MovieLoaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-164">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/booking/movieProcessor/MovieEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="89" column="16" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/booking/movieProcessor/MovieEngineTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="62" column="43" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
