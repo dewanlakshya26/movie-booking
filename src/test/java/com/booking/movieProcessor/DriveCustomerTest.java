@@ -39,7 +39,7 @@ class DriveCustomerTest {
     @DisplayName("system should shutDown if no seats are available in selected auditorium")
     void shouldShutDown() throws Exception {
         SystemLambda.catchSystemExit(() ->
-                driveCustomerInstance.checkAvailableSeats(Collections.emptyMap()));
+                driveCustomerInstance.isAuditoriumEmpty(Collections.emptyMap()));
     }
 
     @Test
