@@ -44,8 +44,8 @@ public class PriceUtility {
     public TotalBillModel getTotalRevenue() {
         double revenue = TotalRevenue.getSingletonInstance().getRevenue();
         double serviceTax = getServiceTax(revenue);
-        double swatchBharatTax = getSwachhBharatTax(revenue);
+        double swachhBharatTax = getSwachhBharatTax(revenue);
         double krishiKalyanTax = getKrishiKalyanTax(revenue);
-        return new TotalBillModel(serviceTax, swatchBharatTax, krishiKalyanTax, revenue);
+        return new TotalBillModel(serviceTax, swachhBharatTax, krishiKalyanTax, revenue);
     }
 }

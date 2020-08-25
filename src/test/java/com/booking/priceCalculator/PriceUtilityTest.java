@@ -24,7 +24,7 @@ class PriceUtilityTest {
     }
 
     @Test
-    @DisplayName("swaach bharat tax should be 0.5 percent")
+    @DisplayName("swacch bharat tax should be 0.5 percent")
     void checkSwatchBharatTest() {
         double swatchBharatTax = priceHandler.getSwachhBharatTax(100.0);
         assertEquals(0.5, swatchBharatTax);

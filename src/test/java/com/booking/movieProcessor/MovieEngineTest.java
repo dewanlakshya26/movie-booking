@@ -21,7 +21,7 @@ class MovieEngineTest {
 
 
     @Test
-    @DisplayName("remove seleted seats from auditorium after purchase")
+    @DisplayName("remove selected seats from auditorium after purchase")
     void removeSelectedSeats() {
         HashMap<String, TicketType> dummyList = new HashMap<>();
         dummyList.put("A1", TicketType.PLATINUM);

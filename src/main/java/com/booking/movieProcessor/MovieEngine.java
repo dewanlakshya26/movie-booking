@@ -21,7 +21,7 @@ public class MovieEngine {
         bookTickets(showNo);
     }
 
-    void bookTickets(String showNumber) {
+    private void bookTickets(String showNumber) {
         MovieLoader movieLoader = MovieLoader.initiateSingletonInstance();
 
         try {

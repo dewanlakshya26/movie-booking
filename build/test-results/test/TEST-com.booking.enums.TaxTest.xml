@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.booking.enums.TaxTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-08-25T01:30:48" hostname="AXISR-166187-L.local" time="0.002">
+<testsuite name="com.booking.enums.TaxTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-08-25T04:07:27" hostname="AXISR-166187-L.local" time="0.002">
   <properties/>
   <testcase name="checkSwatchBharatTaxPercentage()" classname="com.booking.enums.TaxTest" time="0.001"/>
   <testcase name="checkServiceTaxPercentage()" classname="com.booking.enums.TaxTest" time="0.0"/>

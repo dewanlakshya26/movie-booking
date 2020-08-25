@@ -20,7 +20,7 @@ public class BillModel {
         return krishiKalyanTax;
     }
 
-    public BillModel(double serviceTax, double swacchBharatTax, double krishiKalyanTax) {
+    BillModel(double serviceTax, double swacchBharatTax, double krishiKalyanTax) {
         this.serviceTax = serviceTax;
         this.swacchBharatTax = swacchBharatTax;
         this.krishiKalyanTax = krishiKalyanTax;
