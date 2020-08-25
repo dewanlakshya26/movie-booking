@@ -2,40 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="645209d5-6ef9-400d-9bd6-e19966214b6b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/booking/model/BillModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/booking/model/BillModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/booking/model/TotalBillModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/booking/model/TotalBillModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/booking/movieProcessor/MovieEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/booking/movieProcessor/MovieEngine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/booking/movieProcessor/MovieLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/booking/movieProcessor/MovieLoader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/booking/printExecutor/PrintUtility.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/booking/printExecutor/PrintUtility.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/booking/enums/ShowNumberTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/booking/enums/ShowNumberTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/booking/enums/TaxTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/booking/enums/TaxTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/booking/movieProcessor/MovieEngineTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/booking/movieProcessor/MovieEngineTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/booking/priceCalculator/PriceUtilityTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/booking/priceCalculator/PriceUtilityTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/booking/printExecutor/PrintUtilityTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/booking/printExecutor/PrintUtilityTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/booking/revenueGenerator/TotalRevenueTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/booking/revenueGenerator/TotalRevenueTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/distributions/movie-booking-1.0-SNAPSHOT.tar" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/movie-booking-1.0-SNAPSHOT.tar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/distributions/movie-booking-1.0-SNAPSHOT.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/movie-booking-1.0-SNAPSHOT.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/movie-booking-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/movie-booking-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/config/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/booking/model/BillModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/booking/model/BillModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/booking/movieProcessor/MovieEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/booking/movieProcessor/MovieEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/booking/printExecutor/PrintUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/booking/printExecutor/PrintUtility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/booking/enums/ShowNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/booking/enums/ShowNumberTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/booking/enums/TaxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/booking/enums/TaxTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/booking/movieProcessor/MovieEngineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/booking/movieProcessor/MovieEngineTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/booking/priceCalculator/PriceUtilityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/booking/priceCalculator/PriceUtilityTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/booking/printExecutor/PrintUtilityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/booking/printExecutor/PrintUtilityTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/booking/revenueGenerator/TotalRevenueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/booking/revenueGenerator/TotalRevenueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -221,6 +198,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="build" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+      <module name="movie-booking" />
+      <setting name="path" value="file://$PROJECT_DIR$/build.gradle" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in movie-booking.movie-booking.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="movie-booking.movie-booking.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -233,21 +221,6 @@
       <module name="movie-booking.movie-booking.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MovieEngineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="movie-booking.movie-booking.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.booking.movieProcessor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.booking.movieProcessor" />
-      <option name="MAIN_CLASS_NAME" value="com.booking.movieProcessor.MovieEngineTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -270,11 +243,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Groovy.build" />
         <item itemvalue="Application.MovieBooking" />
         <item itemvalue="JUnit.All in movie-booking.movie-booking.test (1)" />
         <item itemvalue="JUnit.All in movie-booking.movie-booking.test" />
         <item itemvalue="JUnit.MovieEngineTest.shouldShutDown" />
-        <item itemvalue="JUnit.MovieEngineTest" />
       </list>
     </recent_temporary>
   </component>
@@ -294,7 +267,7 @@
       <workItem from="1598191272489" duration="17305000" />
       <workItem from="1598255061094" duration="3514000" />
       <workItem from="1598272111812" duration="161000" />
-      <workItem from="1598278280093" duration="1327000" />
+      <workItem from="1598278280093" duration="3866000" />
     </task>
     <servers />
   </component>

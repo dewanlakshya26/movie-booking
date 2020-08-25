@@ -22,7 +22,7 @@ public class MovieEngine {
     }
 
     void bookTickets(String showNumber) {
-        MovieLoader movieLoader = MovieLoader.getMovieLoaderSingletonInstance();
+        MovieLoader movieLoader = MovieLoader.initiateSingletonInstance();
 
         try {
             if (Integer.parseInt(showNumber) != 0 && Integer.parseInt(showNumber) <= ShowNumber.values().length) {

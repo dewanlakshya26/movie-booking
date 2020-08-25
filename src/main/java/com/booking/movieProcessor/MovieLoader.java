@@ -24,7 +24,7 @@ class MovieLoader {
     }
 
 
-    static MovieLoader getMovieLoaderSingletonInstance() {
+    static MovieLoader initiateSingletonInstance() {
         if (movieLoaderSingletonInstance == null) {
             movieLoaderSingletonInstance = new MovieLoader();
         }
