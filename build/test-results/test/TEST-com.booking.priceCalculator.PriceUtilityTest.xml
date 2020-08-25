@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.booking.priceCalculator.PriceUtilityTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-08-25T04:07:27" hostname="AXISR-166187-L.local" time="0.003">
+<testsuite name="com.booking.priceCalculator.PriceUtilityTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-08-25T06:21:00" hostname="AXISR-166187-L.local" time="0.007">
   <properties/>
-  <testcase name="checkSwatchBharatTest()" classname="com.booking.priceCalculator.PriceUtilityTest" time="0.0"/>
-  <testcase name="getPriceAfterSeatSelection()" classname="com.booking.priceCalculator.PriceUtilityTest" time="0.0"/>
+  <testcase name="checkSwatchBharatTest()" classname="com.booking.priceCalculator.PriceUtilityTest" time="0.002"/>
+  <testcase name="getPriceAfterSeatSelection()" classname="com.booking.priceCalculator.PriceUtilityTest" time="0.001"/>
   <testcase name="getCustomerDetailedModel()" classname="com.booking.priceCalculator.PriceUtilityTest" time="0.001"/>
   <testcase name="checkKrishiKalyanTest()" classname="com.booking.priceCalculator.PriceUtilityTest" time="0.0"/>
   <testcase name="checkServiceTest()" classname="com.booking.priceCalculator.PriceUtilityTest" time="0.0"/>

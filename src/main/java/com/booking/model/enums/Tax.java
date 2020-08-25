@@ -1,4 +1,4 @@
-package com.booking.enums;
+package com.booking.model.enums;
 
 public enum Tax {
     SERVICE_TAX(14.0), SWACHHBHARAT_TAX(0.5), KRISHIKALYAN_TAX(0.5);

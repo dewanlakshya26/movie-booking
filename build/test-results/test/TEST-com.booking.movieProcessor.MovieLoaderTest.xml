@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.booking.movieProcessor.MovieLoaderTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-08-25T04:07:27" hostname="AXISR-166187-L.local" time="0.01">
+<testsuite name="com.booking.movieProcessor.MovieLoaderTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-08-25T06:21:00" hostname="AXISR-166187-L.local" time="0.012">
   <properties/>
-  <testcase name="checkClassInstance()" classname="com.booking.movieProcessor.MovieLoaderTest" time="0.008"/>
+  <testcase name="checkClassInstance()" classname="com.booking.movieProcessor.MovieLoaderTest" time="0.01"/>
   <testcase name="loadMoviesWithCategories()" classname="com.booking.movieProcessor.MovieLoaderTest" time="0.0"/>
   <testcase name="fillSecondAuditorium()" classname="com.booking.movieProcessor.MovieLoaderTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

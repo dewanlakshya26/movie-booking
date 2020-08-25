@@ -32,4 +32,4 @@ run {
     standardInput = System.in
 }
 
-mainClassName = 'com.booking.movieProcessor.MovieBooking'
+mainClassName = 'com.booking.MovieBooking'

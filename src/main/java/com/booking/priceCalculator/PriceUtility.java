@@ -1,9 +1,9 @@
 package com.booking.priceCalculator;
 
-import com.booking.enums.Tax;
-import com.booking.enums.TicketType;
 import com.booking.model.CustomerBillModel;
 import com.booking.model.TotalBillModel;
+import com.booking.model.enums.Tax;
+import com.booking.model.enums.TicketType;
 import com.booking.revenueGenerator.TotalRevenue;
 
 import java.util.Map;

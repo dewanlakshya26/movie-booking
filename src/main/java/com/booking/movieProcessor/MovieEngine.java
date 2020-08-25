@@ -1,8 +1,8 @@
 package com.booking.movieProcessor;
 
-import com.booking.enums.ShowNumber;
-import com.booking.enums.TicketType;
 import com.booking.model.CustomerBillModel;
+import com.booking.model.enums.ShowNumber;
+import com.booking.model.enums.TicketType;
 import com.booking.priceCalculator.PriceUtility;
 import com.booking.printExecutor.PrintUtility;
 
@@ -15,14 +15,14 @@ public class MovieEngine {
     private PriceUtility priceHandler = new PriceUtility();
 
 
-    void bookingEngine() {
+    public void bookingEngine() {
         System.out.println("Enter Show no");
         final String showNo = scanner.next();
         bookTickets(showNo);
     }
 
     private void bookTickets(String showNumber) {
-        MovieLoader movieLoader = MovieLoader.initiateSingletonInstance();
+        MovieLoader movieLoader = MovieLoader.getInstance();
 
         try {
             if (Integer.parseInt(showNumber) != 0 && Integer.parseInt(showNumber) <= ShowNumber.values().length) {
@@ -50,7 +50,6 @@ public class MovieEngine {
         printHandler.printCustomerBill(customerBillModel);
         removeSelectedSeatsFromAuditorium(audi, selectedSeats);
 
-        System.out.println("Press 0 to exit");
         bookingEngine();
     }
 

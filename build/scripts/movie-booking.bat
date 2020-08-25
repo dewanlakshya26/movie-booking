@@ -66,7 +66,7 @@ set CMD_LINE_ARGS=%*
 set CLASSPATH=%APP_HOME%\lib\movie-booking-1.0-SNAPSHOT.jar;%APP_HOME%\lib\json-simple-1.1.jar
 
 @rem Execute movie-booking
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %MOVIE_BOOKING_OPTS%  -classpath "%CLASSPATH%" com.booking.movieProcessor.MovieBooking %CMD_LINE_ARGS%
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %MOVIE_BOOKING_OPTS%  -classpath "%CLASSPATH%" com.booking.MovieBooking %CMD_LINE_ARGS%
 
 :end
 @rem End local scope for the variables with windows NT shell

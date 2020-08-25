@@ -1,4 +1,4 @@
-package com.booking.enums;
+package com.booking.model.enums;
 
 public enum TicketType {
     PLATINUM(320), GOLD(280), SILVER(240);

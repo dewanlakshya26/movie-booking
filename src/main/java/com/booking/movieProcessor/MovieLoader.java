@@ -1,7 +1,7 @@
 package com.booking.movieProcessor;
 
-import com.booking.enums.ShowNumber;
-import com.booking.enums.TicketType;
+import com.booking.model.enums.ShowNumber;
+import com.booking.model.enums.TicketType;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
@@ -15,7 +15,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 
-class MovieLoader {
+public class MovieLoader {
     private ArrayList<HashMap<String, TicketType>> auditoriumLoaderList = new ArrayList<>();
     private static MovieLoader movieLoaderSingletonInstance = null;
 
@@ -24,7 +24,7 @@ class MovieLoader {
     }
 
 
-    static MovieLoader initiateSingletonInstance() {
+    public static MovieLoader getInstance() {
         if (movieLoaderSingletonInstance == null) {
             movieLoaderSingletonInstance = new MovieLoader();
         }
@@ -51,7 +51,6 @@ class MovieLoader {
     }
 
     private void loadSeatsPerAuditorium(JSONObject showList) {
-        System.out.println(auditoriumLoaderList.size());
         EnumSet.allOf(ShowNumber.class)
                 .forEach(showNumber -> {
                     HashMap<String, TicketType> movieListPerAuditorium = new HashMap<>();

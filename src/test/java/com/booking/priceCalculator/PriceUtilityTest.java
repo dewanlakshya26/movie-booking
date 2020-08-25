@@ -1,7 +1,7 @@
 package com.booking.priceCalculator;
 
-import com.booking.enums.TicketType;
 import com.booking.model.CustomerBillModel;
+import com.booking.model.enums.TicketType;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

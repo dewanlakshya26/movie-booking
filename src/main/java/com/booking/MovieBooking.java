@@ -1,9 +1,10 @@
-package com.booking.movieProcessor;
+package com.booking;
+
+import com.booking.movieProcessor.MovieEngine;
 
 public class MovieBooking {
 
     public static void main(String... args) {
-        MovieLoader.initiateSingletonInstance();
         new MovieEngine().bookingEngine();
     }
 }

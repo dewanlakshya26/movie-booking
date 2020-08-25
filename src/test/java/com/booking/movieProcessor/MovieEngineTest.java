@@ -1,6 +1,6 @@
 package com.booking.movieProcessor;
 
-import com.booking.enums.TicketType;
+import com.booking.model.enums.TicketType;
 import com.github.stefanbirkner.systemlambda.SystemLambda;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
